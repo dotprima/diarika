@@ -2,14 +2,14 @@
 <html class="no-js" lang="zxx">
 
 
-<!-- Mirrored from htmldemo.net/brancy/brancy/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Oct 2022 12:15:09 GMT -->
+<!-- Mirrored from htmldemo.net/Diarika/Diarika/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Oct 2022 12:15:09 GMT -->
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Diarika</title>
     <meta name="robots" content="noindex, follow" />
-    <meta name="description" content="Brancy - Cosmetic & Beauty Salon Website Template">
+    <meta name="description" content="Diarika">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords"
         content="bootstrap, ecommerce, ecommerce html, beauty, cosmetic shop, beauty products, cosmetic, beauty shop, cosmetic store, shop, beauty store, spa, cosmetic, cosmetics, beauty salon" />
@@ -191,7 +191,7 @@
 
             <!--== Start Hero Area Wrapper ==-->
             <section class="hero-slider-area position-relative">
-                <div class="swiper hero-slider-container">
+                <div class="swiper hero-slider-container" style="height: 830px;">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide hero-slide-item">
                             <div class="container">
@@ -207,36 +207,10 @@
                                             <a class="btn btn-border-dark" href="product.html">BUY NOW</a>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-md-6">
+                                    <div class="col-12 col-md-6" style="padding-top: 100px;">
                                         <div class="hero-slide-thumb">
-                                            <img src="assets/images/slider/slider1.webp" width="841" height="832"
-                                                alt="Image">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="hero-slide-text-shape"><img src="assets/images/slider/text1.webp" width="70"
-                                    height="955" alt="Image"></div>
-                            <div class="hero-slide-social-shape"></div>
-                        </div>
-                        <div class="swiper-slide hero-slide-item">
-                            <div class="container">
-                                <div class="row align-items-center position-relative">
-                                    <div class="col-12 col-md-6">
-                                        <div class="hero-slide-content">
-                                            <div class="hero-slide-text-img"><img
-                                                    src="assets/images/slider/text-theme.webp" width="427" height="232"
-                                                    alt="Image"></div>
-                                            <h2 class="hero-slide-title">Facial Cream</h2>
-                                            <p class="hero-slide-desc">Lorem ipsum dolor sit amet, consectetur
-                                                adipiscing elit ut aliquam, purus sit amet luctus venenatis.</p>
-                                            <a class="btn btn-border-dark" href="product.html">BUY NOW</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                        <div class="hero-slide-thumb">
-                                            <img src="assets/images/slider/slider2.webp" width="841" height="832"
-                                                alt="Image">
+                                            <img src="assets/images/FPK202206212-removebg-preview.png" width="841"
+                                                height="832" alt="Image">
                                         </div>
                                     </div>
                                 </div>
@@ -337,12 +311,13 @@
                         </div>
                     </div>
                     <div class="row mb-n4 mb-sm-n10 g-3 g-sm-6">
-                        <div class="col-6 col-lg-4 mb-4 mb-sm-9">
+                    @for ($i = 0; $i < 9; $i++)
+                    <div class="col-6 col-lg-4 mb-4 mb-sm-9">
                             <!--== Start Product Item ==-->
                             <div class="product-item">
                                 <div class="product-thumb">
                                     <a class="d-block" href="product-details.html">
-                                        <img src="assets/images/shop/1.webp" width="370" height="450"
+                                        <img src="product/FPK202206172.JPG" width="370" height="450"
                                             alt="Image-HasTech">
                                     </a>
                                     <span class="flag-new">new</span>
@@ -395,296 +370,7 @@
                             </div>
                             <!--== End prPduct Item ==-->
                         </div>
-                        <div class="col-6 col-lg-4 mb-4 mb-sm-9">
-                            <!--== Start Product Item ==-->
-                            <div class="product-item">
-                                <div class="product-thumb">
-                                    <a class="d-block" href="product-details.html">
-                                        <img src="assets/images/shop/2.webp" width="370" height="450"
-                                            alt="Image-HasTech">
-                                    </a>
-                                    <span class="flag-new">new</span>
-                                    <div class="product-action">
-                                        <button type="button" class="product-action-btn action-btn-quick-view"
-                                            data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
-                                            <i class="fa fa-expand"></i>
-                                        </button>
-                                        <button type="button" class="product-action-btn action-btn-cart"
-                                            data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
-                                            <span>Add to cart</span>
-                                        </button>
-                                        <button type="button" class="product-action-btn action-btn-wishlist"
-                                            data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
-                                            <i class="fa fa-heart-o"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="product-info">
-                                    <div class="product-rating">
-                                        <div class="rating">
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-half-o"></i>
-                                        </div>
-                                        <div class="reviews">150 reviews</div>
-                                    </div>
-                                    <h4 class="title"><a href="product-details.html">Modern Eye Brush</a></h4>
-                                    <div class="prices">
-                                        <span class="price">$210.00</span>
-                                        <span class="price-old">300.00</span>
-                                    </div>
-                                </div>
-                                <div class="product-action-bottom">
-                                    <button type="button" class="product-action-btn action-btn-quick-view"
-                                        data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
-                                        <i class="fa fa-expand"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-wishlist"
-                                        data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
-                                        <i class="fa fa-heart-o"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-cart"
-                                        data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
-                                        <span>Add to cart</span>
-                                    </button>
-                                </div>
-                            </div>
-                            <!--== End prPduct Item ==-->
-                        </div>
-                        <div class="col-6 col-lg-4 mb-4 mb-sm-9">
-                            <!--== Start Product Item ==-->
-                            <div class="product-item">
-                                <div class="product-thumb">
-                                    <a class="d-block" href="product-details.html">
-                                        <img src="assets/images/shop/3.webp" width="370" height="450"
-                                            alt="Image-HasTech">
-                                    </a>
-                                    <span class="flag-new">new</span>
-                                    <div class="product-action">
-                                        <button type="button" class="product-action-btn action-btn-quick-view"
-                                            data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
-                                            <i class="fa fa-expand"></i>
-                                        </button>
-                                        <button type="button" class="product-action-btn action-btn-cart"
-                                            data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
-                                            <span>Add to cart</span>
-                                        </button>
-                                        <button type="button" class="product-action-btn action-btn-wishlist"
-                                            data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
-                                            <i class="fa fa-heart-o"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="product-info">
-                                    <div class="product-rating">
-                                        <div class="rating">
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-half-o"></i>
-                                        </div>
-                                        <div class="reviews">150 reviews</div>
-                                    </div>
-                                    <h4 class="title"><a href="product-details.html">Voyage face cleaner</a></h4>
-                                    <div class="prices">
-                                        <span class="price">$210.00</span>
-                                        <span class="price-old">300.00</span>
-                                    </div>
-                                </div>
-                                <div class="product-action-bottom">
-                                    <button type="button" class="product-action-btn action-btn-quick-view"
-                                        data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
-                                        <i class="fa fa-expand"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-wishlist"
-                                        data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
-                                        <i class="fa fa-heart-o"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-cart"
-                                        data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
-                                        <span>Add to cart</span>
-                                    </button>
-                                </div>
-                            </div>
-                            <!--== End prPduct Item ==-->
-                        </div>
-                        <div class="col-6 col-lg-4 mb-4 mb-sm-9">
-                            <!--== Start Product Item ==-->
-                            <div class="product-item">
-                                <div class="product-thumb">
-                                    <a class="d-block" href="product-details.html">
-                                        <img src="assets/images/shop/4.webp" width="370" height="450"
-                                            alt="Image-HasTech">
-                                    </a>
-                                    <span class="flag-new">new</span>
-                                    <div class="product-action">
-                                        <button type="button" class="product-action-btn action-btn-quick-view"
-                                            data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
-                                            <i class="fa fa-expand"></i>
-                                        </button>
-                                        <button type="button" class="product-action-btn action-btn-cart"
-                                            data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
-                                            <span>Add to cart</span>
-                                        </button>
-                                        <button type="button" class="product-action-btn action-btn-wishlist"
-                                            data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
-                                            <i class="fa fa-heart-o"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="product-info">
-                                    <div class="product-rating">
-                                        <div class="rating">
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-half-o"></i>
-                                        </div>
-                                        <div class="reviews">150 reviews</div>
-                                    </div>
-                                    <h4 class="title"><a href="product-details.html">Impulse Duffle</a></h4>
-                                    <div class="prices">
-                                        <span class="price">$210.00</span>
-                                        <span class="price-old">300.00</span>
-                                    </div>
-                                </div>
-                                <div class="product-action-bottom">
-                                    <button type="button" class="product-action-btn action-btn-quick-view"
-                                        data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
-                                        <i class="fa fa-expand"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-wishlist"
-                                        data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
-                                        <i class="fa fa-heart-o"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-cart"
-                                        data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
-                                        <span>Add to cart</span>
-                                    </button>
-                                </div>
-                            </div>
-                            <!--== End prPduct Item ==-->
-                        </div>
-                        <div class="col-6 col-lg-4 mb-4 mb-sm-9">
-                            <!--== Start Product Item ==-->
-                            <div class="product-item">
-                                <div class="product-thumb">
-                                    <a class="d-block" href="product-details.html">
-                                        <img src="assets/images/shop/5.webp" width="370" height="450"
-                                            alt="Image-HasTech">
-                                    </a>
-                                    <span class="flag-new">new</span>
-                                    <div class="product-action">
-                                        <button type="button" class="product-action-btn action-btn-quick-view"
-                                            data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
-                                            <i class="fa fa-expand"></i>
-                                        </button>
-                                        <button type="button" class="product-action-btn action-btn-cart"
-                                            data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
-                                            <span>Add to cart</span>
-                                        </button>
-                                        <button type="button" class="product-action-btn action-btn-wishlist"
-                                            data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
-                                            <i class="fa fa-heart-o"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="product-info">
-                                    <div class="product-rating">
-                                        <div class="rating">
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-half-o"></i>
-                                        </div>
-                                        <div class="reviews">150 reviews</div>
-                                    </div>
-                                    <h4 class="title"><a href="product-details.html">Sprite Yoga Straps1</a></h4>
-                                    <div class="prices">
-                                        <span class="price">$210.00</span>
-                                        <span class="price-old">300.00</span>
-                                    </div>
-                                </div>
-                                <div class="product-action-bottom">
-                                    <button type="button" class="product-action-btn action-btn-quick-view"
-                                        data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
-                                        <i class="fa fa-expand"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-wishlist"
-                                        data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
-                                        <i class="fa fa-heart-o"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-cart"
-                                        data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
-                                        <span>Add to cart</span>
-                                    </button>
-                                </div>
-                            </div>
-                            <!--== End prPduct Item ==-->
-                        </div>
-                        <div class="col-6 col-lg-4 mb-4 mb-sm-9">
-                            <!--== Start Product Item ==-->
-                            <div class="product-item">
-                                <div class="product-thumb">
-                                    <a class="d-block" href="product-details.html">
-                                        <img src="assets/images/shop/6.webp" width="370" height="450"
-                                            alt="Image-HasTech">
-                                    </a>
-                                    <span class="flag-new">new</span>
-                                    <div class="product-action">
-                                        <button type="button" class="product-action-btn action-btn-quick-view"
-                                            data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
-                                            <i class="fa fa-expand"></i>
-                                        </button>
-                                        <button type="button" class="product-action-btn action-btn-cart"
-                                            data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
-                                            <span>Add to cart</span>
-                                        </button>
-                                        <button type="button" class="product-action-btn action-btn-wishlist"
-                                            data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
-                                            <i class="fa fa-heart-o"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="product-info">
-                                    <div class="product-rating">
-                                        <div class="rating">
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-half-o"></i>
-                                        </div>
-                                        <div class="reviews">150 reviews</div>
-                                    </div>
-                                    <h4 class="title"><a href="product-details.html">Fusion facial cream</a></h4>
-                                    <div class="prices">
-                                        <span class="price">$210.00</span>
-                                        <span class="price-old">300.00</span>
-                                    </div>
-                                </div>
-                                <div class="product-action-bottom">
-                                    <button type="button" class="product-action-btn action-btn-quick-view"
-                                        data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
-                                        <i class="fa fa-expand"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-wishlist"
-                                        data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
-                                        <i class="fa fa-heart-o"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-cart"
-                                        data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
-                                        <span>Add to cart</span>
-                                    </button>
-                                </div>
-                            </div>
-                            <!--== End prPduct Item ==-->
-                        </div>
+                    @endfor
                     </div>
                 </div>
             </section>
@@ -1060,7 +746,7 @@
             <div class="footer-bottom">
                 <div class="container pt-0 pb-0">
                     <div class="footer-bottom-content">
-                        <p class="copyright">© 2022 Brancy. Made with <i class="fa fa-heart"></i> by <a target="_blank"
+                        <p class="copyright">© 2022 Diarika. Made with <i class="fa fa-heart"></i> by <a target="_blank"
                                 href="https://themeforest.net/user/codecarnival">Codecarnival.</a></p>
                     </div>
                 </div>
@@ -1344,6 +1030,6 @@
 </body>
 
 
-<!-- Mirrored from htmldemo.net/brancy/brancy/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Oct 2022 12:16:09 GMT -->
+<!-- Mirrored from htmldemo.net/Diarika/Diarika/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Oct 2022 12:16:09 GMT -->
 
 </html>
