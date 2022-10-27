@@ -166,17 +166,18 @@
                         <div class="product-info">
                             <div class="product-rating">
                                 <div class="rating">
-                                    <i class="fa fa-star-o"></i>
-                                    <i class="fa fa-star-o"></i>
-                                    <i class="fa fa-star-o"></i>
-                                    <i class="fa fa-star-o"></i>
+                                    @for ($i = 0; $i < (int)$products->star; $i++)
+                                    <i class="fa fa-star"></i>
+                                    @endfor
+                                    @if ((float)$products->star-$i==0.5)
                                     <i class="fa fa-star-half-o"></i>
+                                    @endif
                                 </div>
-                                <div class="reviews">150 reviews</div>
+                                <div class="reviews">{{$products->review}} reviews</div>
                             </div>
-                            <h4 class="title"><a href="product-details.html">Readable content DX22</a></h4>
+                            <h4 class="title"><a href="product-details.html">{{$products->judul}}</a></h4>
                             <div class="prices">
-                                <span class="price">$210.00</span>
+                                <span class="price">{{$products->harga}}</span>
                                 <span class="price-old">300.00</span>
                             </div>
                         </div>
@@ -257,7 +258,7 @@
                                             </div>
                                         </div>
                                         <div class="product-details-action">
-                                            <h4 class="price">$254.22</h4>
+                                            <h4 class="price">{{$products->harga}}</h4>
                                             <div class="product-details-cart-wishlist">
                                                 <button type="button" class="btn" data-bs-toggle="modal"
                                                     data-bs-target="#action-CartAddModal">Add to cart</button>

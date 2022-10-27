@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="assets/css/plugins/fancybox.min.css">
     <link rel="stylesheet" href="assets/css/plugins/range-slider.css">
     <link rel="stylesheet" href="assets/css/plugins/nice-select.css">
-
+    @livewireStyles
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/css/style.min.css">
 
@@ -78,7 +78,7 @@
 
     <!-- Custom Main JS -->
     <script src="assets/js/main.js"></script>
-
+    @livewireScripts
 </body>
 
 
