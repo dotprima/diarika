@@ -6,7 +6,7 @@
 
     <!--== Start Hero Area Wrapper ==-->
     <section class="hero-slider-area position-relative">
-        <div class="swiper hero-slider-container" style="height: 830px;">
+        <div class="swiper hero-slider-container" style="height: 840px;">
             <div class="swiper-wrapper">
                 <div class="swiper-slide hero-slide-item">
                     <div class="container">
@@ -28,6 +28,59 @@
                                 </div>
                             </div>
                         </div>
+
+                    </div>
+                    <div class="hero-slide-text-shape"><img src="assets/images/slider/text1.webp" width="70"
+                            height="955" alt="Image"></div>
+                    <div class="hero-slide-social-shape"></div>
+                </div>
+                <div class="swiper-slide hero-slide-item">
+                    <div class="container">
+                        <div class="row align-items-center position-relative">
+                            <div class="col-12 col-md-6">
+                                <div class="hero-slide-content">
+                                    <div class="hero-slide-text-img"><img src="assets/images/slider/text-theme.webp"
+                                            width="427" height="232" alt="Image"></div>
+                                    <h2 class="hero-slide-title">CLEAN FRESH</h2>
+                                    <p class="hero-slide-desc">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit ut aliquam, purus sit amet luctus venenatis.</p>
+                                    <a class="btn btn-border-dark" href="/catalog">BUY NOW</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6" style="padding-top: 100px;">
+                                <div class="hero-slide-thumb">
+                                    <img src="assets/images/FPK202206213-removebg-preview.png" width="841" height="832"
+                                        alt="Image">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="hero-slide-text-shape"><img src="assets/images/slider/text1.webp" width="70"
+                            height="955" alt="Image"></div>
+                    <div class="hero-slide-social-shape"></div>
+                </div>
+                <div class="swiper-slide hero-slide-item">
+                    <div class="container">
+                        <div class="row align-items-center position-relative">
+                            <div class="col-12 col-md-6">
+                                <div class="hero-slide-content">
+                                    <div class="hero-slide-text-img"><img src="assets/images/slider/text-theme.webp"
+                                            width="427" height="232" alt="Image"></div>
+                                    <h2 class="hero-slide-title">CLEAN FRESH</h2>
+                                    <p class="hero-slide-desc">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit ut aliquam, purus sit amet luctus venenatis.</p>
+                                    <a class="btn btn-border-dark" href="/catalog">BUY NOW</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6" style="padding-top: 100px;">
+                                <div class="hero-slide-thumb">
+                                    <img src="assets/images/FPK202206214-removebg-preview.png" width="841" height="832"
+                                        alt="Image">
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="hero-slide-text-shape"><img src="assets/images/slider/text1.webp" width="70"
                             height="955" alt="Image"></div>
@@ -38,9 +91,18 @@
             <div class="hero-slider-pagination"></div>
         </div>
         <div class="hero-slide-social-media">
-            <a href="https://www.pinterest.com/" target="_blank" rel="noopener"><i class="fa fa-pinterest-p"></i></a>
-            <a href="https://twitter.com/" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
+            <a href="https://shopee.co.id/diarika_beauty_official" target="_blank" rel="noopener">
+                <img src="/icon/shopee.png" alt="Girl in a jacket" >
+            </a>
+            <a href="https://www.instagram.com/diarika_beauty_official/" target="_blank" rel="noopener">
+                <img src="/icon/instagram.png" alt="Girl in a jacket">
+            </a>
+            <a href="https://wa.me/6281395121992" target="_blank" rel="noopener">
+                <img src="/icon/whatsapp.png" alt="Girl in a jacket" width="20px">
+            </a>
+            <a href="https://wa.me/6281395112011" target="_blank" rel="noopener">
+                <img src="/icon/whatsapp.png" alt="Girl in a jacket" width="20px">
+            </a>
         </div>
     </section>
     <!--== End Hero Area Wrapper ==-->
@@ -112,7 +174,7 @@
 
     <!--== Start Product Area Wrapper ==-->
     <livewire:home />
-    
+
     <!--== End Product Area Wrapper ==-->
 
 
@@ -216,7 +278,8 @@
 
     <!--== Start Product Quick View Modal ==-->
     @foreach ($product as $products)
-    <aside class="product-cart-view-modal modal fade" id="action-QuickViewModal{{$products->_id}}" tabindex="-1" aria-hidden="true">
+    <aside class="product-cart-view-modal modal fade" id="action-QuickViewModal{{$products->_id}}" tabindex="-1"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body">

@@ -18,30 +18,20 @@
                     <div class="widget-item">
                         <h4 class="widget-title">Information</h4>
                         <ul class="widget-nav">
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="about-us.html">About us</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="faq.html">Privacy</a></li>
-                            <li><a href="account-login.html">Login</a></li>
-                            <li><a href="product.html">Shop</a></li>
-                            <li><a href="my-account.html">My Account</a></li>
-                            <li><a href="faq.html">FAQs</a></li>
+                            <li><a href="https://wa.me/6281395121992">Whatsapp 1 <img src="/icon/whatsapp.png" alt="Girl in a jacket" width="17px"></a>
+                            </li>
+                            <li><a href="https://wa.me/6281395112011">Whatsapp 2 <img src="/icon/whatsapp.png" alt="Girl in a jacket" width="17px"></a>
+                            </li>
+                            <li><a href="https://shopee.co.id/diarika_beauty_official">Shopee <img src="/icon/shopee.png" alt="Girl in a jacket" width="30px"></a>
+                            </li>
+                            <li><a href="https://www.instagram.com/diarika_beauty_official/">Instagram<img src="/icon/instagram.png" alt="Girl in a jacket" width="30px"></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 mt-lg-0 mt-6">
-                    <div class="widget-item">
-                        <h4 class="widget-title">Social Info</h4>
-                        <div class="widget-social">
-                            <a href="https://twitter.com/" target="_blank" rel="noopener"><i
-                                    class="fa fa-twitter"></i></a>
-                            <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i
-                                    class="fa fa-facebook"></i></a>
-                            <a href="https://www.pinterest.com/" target="_blank" rel="noopener"><i
-                                    class="fa fa-pinterest-p"></i></a>
-                        </div>
-                    </div>
-                </div>
+
+
+
             </div>
         </div>
     </div>
@@ -52,7 +42,7 @@
         <div class="container pt-0 pb-0">
             <div class="footer-bottom-content">
                 <p class="copyright">© 2022 Diarika. Made with <i class="fa fa-heart"></i> by <a target="_blank"
-                        href="https://themeforest.net/user/codecarnival">Codecarnival.</a></p>
+                        href="https://themeforest.net/user/codecarnival">Prima.Js.</a></p>
             </div>
         </div>
     </div>

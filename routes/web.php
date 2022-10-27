@@ -5,6 +5,7 @@ use App\Http\Controllers\Home;
 use App\Http\Controllers\Contact;
 use App\Http\Controllers\About;
 use App\Http\Controllers\Catalog;
+use App\Http\Controllers\Admin;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,9 +22,6 @@ Route::get('/about', [Contact::class, 'index']);
 Route::get('/contact', [About::class, 'index']);
 Route::get('/catalog', [Catalog::class, 'index']);
 
-
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/dashboard', [Admin::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
 
 require __DIR__.'/auth.php';
