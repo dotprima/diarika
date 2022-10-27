@@ -18,7 +18,7 @@
                                     <h2 class="hero-slide-title">CLEAN FRESH</h2>
                                     <p class="hero-slide-desc">Lorem ipsum dolor sit amet, consectetur
                                         adipiscing elit ut aliquam, purus sit amet luctus venenatis.</p>
-                                    <a class="btn btn-border-dark" href="product.html">BUY NOW</a>
+                                    <a class="btn btn-border-dark" href="/catalog">BUY NOW</a>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6" style="padding-top: 100px;">
@@ -51,7 +51,7 @@
             <div class="row g-3 g-sm-6">
                 <div class="col-6 col-lg-4 col-lg-2 col-xl-2">
                     <!--== Start Product Category Item ==-->
-                    <a href="product.html" class="product-category-item" data-bg-color="#F9F6EE">
+                    <a href="/catalog" class="product-category-item" data-bg-color="#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/1.webp" width="70" height="80"
                             alt="Image-HasTech">
                         <h3 class="title">Hare care</h3>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="col-6 col-lg-4 col-lg-2 col-xl-2">
                     <!--== Start Product Category Item ==-->
-                    <a href="product.html" class="product-category-item" data-bg-color="#F9F6EE">
+                    <a href="/catalog" class="product-category-item" data-bg-color="#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/2.webp" width="80" height="80"
                             alt="Image-HasTech">
                         <h3 class="title">Skin care</h3>
@@ -70,7 +70,7 @@
                 </div>
                 <div class="col-6 col-lg-4 col-lg-2 col-xl-2 mt-lg-0 mt-sm-6 mt-4">
                     <!--== Start Product Category Item ==-->
-                    <a href="product.html" class="product-category-item" data-bg-color="#F9F6EE">
+                    <a href="/catalog" class="product-category-item" data-bg-color="#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/3.webp" width="80" height="80"
                             alt="Image-HasTech">
                         <h3 class="title">Lip stick</h3>
@@ -79,7 +79,7 @@
                 </div>
                 <div class="col-6 col-lg-4 col-lg-2 col-xl-2 mt-xl-0 mt-sm-6 mt-4">
                     <!--== Start Product Category Item ==-->
-                    <a href="product.html" class="product-category-item" data-bg-color="#F9F6EE">
+                    <a href="/catalog" class="product-category-item" data-bg-color="#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/4.webp" width="80" height="80"
                             alt="Image-HasTech">
                         <h3 class="title">Face skin</h3>
@@ -89,7 +89,7 @@
                 </div>
                 <div class="col-6 col-lg-4 col-lg-2 col-xl-2 mt-xl-0 mt-sm-6 mt-4">
                     <!--== Start Product Category Item ==-->
-                    <a href="product.html" class="product-category-item" data-bg-color="#F9F6EE">
+                    <a href="/catalog" class="product-category-item" data-bg-color="#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/5.webp" width="80" height="80"
                             alt="Image-HasTech">
                         <h3 class="title">Blusher</h3>
@@ -98,7 +98,7 @@
                 </div>
                 <div class="col-6 col-lg-4 col-lg-2 col-xl-2 mt-xl-0 mt-sm-6 mt-4">
                     <!--== Start Product Category Item ==-->
-                    <a href="product.html" class="product-category-item" data-bg-color="#F9F6EE">
+                    <a href="/catalog" class="product-category-item" data-bg-color="#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/6.webp" width="80" height="80"
                             alt="Image-HasTech">
                         <h3 class="title">Natural</h3>
@@ -132,7 +132,7 @@
                 <div class="col-sm-6 col-lg-4 mb-8">
                     <!--== Start Blog Item ==-->
                     <div class="post-item">
-                        <a href="blog-details.html" class="thumb">
+                        <a href="/catalog" class="thumb">
                             <img src="assets/images/blog/1.webp" width="370" height="320" alt="Image-HasTech">
                         </a>
                         <div class="content">
@@ -151,7 +151,7 @@
                 <div class="col-sm-6 col-lg-4 mb-8">
                     <!--== Start Blog Item ==-->
                     <div class="post-item">
-                        <a href="blog-details.html" class="thumb">
+                        <a href="/catalog" class="thumb">
                             <img src="assets/images/blog/2.webp" width="370" height="320" alt="Image-HasTech">
                         </a>
                         <div class="content">
@@ -171,7 +171,7 @@
                 <div class="col-sm-6 col-lg-4 mb-8">
                     <!--== Start Blog Item ==-->
                     <div class="post-item">
-                        <a href="blog-details.html" class="thumb">
+                        <a href="/catalog" class="thumb">
                             <img src="assets/images/blog/3.webp" width="370" height="320" alt="Image-HasTech">
                         </a>
                         <div class="content">
