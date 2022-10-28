@@ -1,6 +1,6 @@
 <div>
     <!--== Start Page Header Area Wrapper ==-->
-    <section class="page-header-area pt-10 pb-9" data-bg-color="#FFF3DA">
+    <section class="page-header-area pt-10 pb-9" style ="background-color:#F9F6EE"s>
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
@@ -42,8 +42,9 @@
             <div class="row g-3 g-sm-6">
                 <div class="col-6 col-lg-4 col-lg-2 col-xl-2">
                     <!--== Start Product Category Item ==-->
-                    <a wire:click.prevent="sortBy('1')" role="button" href="#" class="product-category-item">
-                        <img class="icon" src="assets/images/shop/category/1.webp" width="70" height="80"
+                    <a wire:click.prevent="sortBy('1')" role="button" href="#" class="product-category-item"
+                        style="background-color:#F9F6EE">
+                        <img class="icon" src="assets/images/shop/category/1.webp" width="80" height="80"
                             alt="Image-HasTech">
                         <h3 class="title">Hare care</h3>
                         <span class="flag-new">new</span>
@@ -53,7 +54,7 @@
                 <div class="col-6 col-lg-4 col-lg-2 col-xl-2">
                     <!--== Start Product Category Item ==-->
                     <a wire:click.prevent="sortBy('2')" role="button" href="#" class="product-category-item"
-                        data-bg-color="#FFEDB4">
+                        style="background-color:#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/2.webp" width="80" height="80"
                             alt="Image-HasTech">
                         <h3 class="title">Skin care</h3>
@@ -63,7 +64,7 @@
                 <div class="col-6 col-lg-4 col-lg-2 col-xl-2 mt-lg-0 mt-sm-6 mt-4">
                     <!--== Start Product Category Item ==-->
                     <a wire:click.prevent="sortBy('1')" role="button" href="#" class="product-category-item"
-                        data-bg-color="#DFE4FF">
+                        style="background-color:#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/3.webp" width="80" height="80"
                             alt="Image-HasTech">
                         <h3 class="title">Lip stick</h3>
@@ -73,7 +74,7 @@
                 <div class="col-6 col-lg-4 col-lg-2 col-xl-2 mt-xl-0 mt-sm-6 mt-4">
                     <!--== Start Product Category Item ==-->
                     <a wire:click.prevent="sortBy('1')" role="button" href="#" class="product-category-item"
-                        data-bg-color="#FFEACC">
+                        style="background-color:#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/4.webp" width="80" height="80"
                             alt="Image-HasTech">
                         <h3 class="title">Face skin</h3>
@@ -84,7 +85,7 @@
                 <div class="col-6 col-lg-4 col-lg-2 col-xl-2 mt-xl-0 mt-sm-6 mt-4">
                     <!--== Start Product Category Item ==-->
                     <a wire:click.prevent="sortBy('1')" role="button" href="#" class="product-category-item"
-                        data-bg-color="#FFDAE0">
+                        style="background-color:#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/5.webp" width="80" height="80"
                             alt="Image-HasTech">
                         <h3 class="title">Blusher</h3>
@@ -94,7 +95,7 @@
                 <div class="col-6 col-lg-4 col-lg-2 col-xl-2 mt-xl-0 mt-sm-6 mt-4">
                     <!--== Start Product Category Item ==-->
                     <a wire:click.prevent="sortBy('1')" role="button" href="#" class="product-category-item"
-                        data-bg-color="#FFF3DA">
+                        style="background-color:#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/6.webp" width="80" height="80"
                             alt="Image-HasTech">
                         <h3 class="title">Natural</h3>
@@ -105,7 +106,7 @@
         </div>
     </section>
     <!--== End Product Category Area Wrapper ==-->
-    
+
 
     <!--== Start Product Area Wrapper ==-->
     <section class="section-space">
@@ -121,7 +122,7 @@
                     <!--== Start Product Item ==-->
                     <div class="product-item">
                         <div class="product-thumb">
-                            <a class="d-block" href="product-details.html">
+                            <a class="d-block" href="{{URL::to('/')}}/catalog/{{$products->url}}">
                                 <img src="product/{{$products->image}}" width="370" height="450" alt="Image-HasTech">
                             </a>
                             <span class="flag-new">new</span>
@@ -152,7 +153,8 @@
                                 </div>
                                 <div class="reviews">{{$products->review}} reviews</div>
                             </div>
-                            <h4 class="title"><a href="product-details.html">{{$products->judul}}</a></h4>
+                            <h4 class="title"><a
+                                    href="{{URL::to('/')}}/catalog/{{$products->url}}">{{$products->judul}}</a></h4>
                             <div class="prices">
                                 <span class="price">{{$products->harga}}</span>
                                 <span class="price-old">300.00</span>
@@ -188,8 +190,8 @@
     <section>
         <div class="container">
             <!--== Start Product Category Item ==-->
-            <a href="product.html" class="product-banner-item">
-                <img src="assets/images/shop/banner/7.webp" width="1170" height="240" alt="Image-HasTech">
+            <a href="{{URL::to('/')}}/catalog" class="product-banner-item">
+                <img src="assets/images/shop/banner/banner.png" width="1170" height="240" alt="Image-HasTech">
             </a>
             <!--== End Product Category Item ==-->
         </div>

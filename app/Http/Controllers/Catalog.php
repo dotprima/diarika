@@ -8,11 +8,19 @@ class Catalog extends Controller
 {
     public function index()
     {
-        $product = Product::all();
-        return view('catalog', [
-            'product' => $product
-        ]);
+        return view('catalog');
 
         
+    }
+
+    public function catalogInfo($id)
+    {
+        $product = Product::take(3)->get();
+        $productInfo = Product::where('url', $id)->first();
+        return view('catalogInfo', [
+            'product' => $product,
+            'productInfo'=> $productInfo
+        ]);
+
     }
 }

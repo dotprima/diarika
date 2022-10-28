@@ -6,14 +6,14 @@
 
     <!--== Start Hero Area Wrapper ==-->
     <section class="hero-slider-area position-relative">
-        <div class="swiper hero-slider-container" style="height: 840px;">
+        <div class="swiper hero-slider-container" style="height: 850px;">
             <div class="swiper-wrapper">
                 <div class="swiper-slide hero-slide-item">
                     <div class="container">
                         <div class="row align-items-center position-relative">
                             <div class="col-12 col-md-6">
                                 <div class="hero-slide-content">
-                                    <div class="hero-slide-text-img"><img src="assets/images/slider/text-theme.webp"
+                                    <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo.png"
                                             width="427" height="232" alt="Image"></div>
                                     <h2 class="hero-slide-title">CLEAN FRESH</h2>
                                     <p class="hero-slide-desc">Lorem ipsum dolor sit amet, consectetur
@@ -30,8 +30,8 @@
                         </div>
 
                     </div>
-                    <div class="hero-slide-text-shape"><img src="assets/images/slider/text1.webp" width="70"
-                            height="955" alt="Image"></div>
+                    <!-- <div class="hero-slide-text-shape"><img src="assets/images/slider/text1.webp" width="70"
+                            height="955" alt="Image"></div> -->
                     <div class="hero-slide-social-shape"></div>
                 </div>
                 <div class="swiper-slide hero-slide-item">
@@ -92,7 +92,7 @@
         </div>
         <div class="hero-slide-social-media">
             <a href="https://shopee.co.id/diarika_beauty_official" target="_blank" rel="noopener">
-                <img src="/icon/shopee.png" alt="Girl in a jacket" >
+                <img src="/icon/shopee.png" alt="Girl in a jacket">
             </a>
             <a href="https://www.instagram.com/diarika_beauty_official/" target="_blank" rel="noopener">
                 <img src="/icon/instagram.png" alt="Girl in a jacket">
@@ -304,11 +304,12 @@
                                         <h3 class="product-details-title">{{$products->judul}}</h3>
                                         <div class="product-details-review mb-5">
                                             <div class="product-review-icon">
-                                                <i class="fa fa-star-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                                <i class="fa fa-star-half-o"></i>
+                                                @for ($j = 0; $j < (int)$products->star; $j++)
+                                                    <i class="fa fa-star"></i>
+                                                    @endfor
+                                                    @if ((float)$products->star-$j==0.5)
+                                                    <i class="fa fa-star-half-o"></i>
+                                                    @endif
                                             </div>
                                             <button type="button" class="product-review-show">150 reviews</button>
                                         </div>

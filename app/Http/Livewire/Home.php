@@ -13,7 +13,7 @@ class Home extends Component
     public function render()
     {
         if($this->search==null){
-            $product = Product::all();
+            $product = Product::take(9)->get();;
         }else{
             $product = Product::where('judul', 'like', '%'.$this->search.'%')->get();
         }

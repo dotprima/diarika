@@ -15,7 +15,7 @@
     <meta name="author" content="codecarnival" />
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.webp">
+    <link rel="shortcut icon" type="image/x-icon" href="{{URL::to('/')}}/assets/images/favicon.webp">
 
     <!-- CSS (Font, Vendor, Icon, Plugins & Style CSS files) -->
 
@@ -26,17 +26,17 @@
         rel="stylesheet">
 
     <!-- Vendor CSS (Bootstrap & Icon Font) -->
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="{{URL::to('/')}}/assets/css/vendor/bootstrap.min.css">
 
     <!-- Plugins CSS (All Plugins Files) -->
-    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/fancybox.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/range-slider.css">
-    <link rel="stylesheet" href="assets/css/plugins/nice-select.css">
+    <link rel="stylesheet" href="{{URL::to('/')}}/assets/css/plugins/swiper-bundle.min.css">
+    <link rel="stylesheet" href="{{URL::to('/')}}/assets/css/plugins/font-awesome.min.css">
+    <link rel="stylesheet" href="{{URL::to('/')}}/assets/css/plugins/fancybox.min.css">
+    <link rel="stylesheet" href="{{URL::to('/')}}/assets/css/plugins/range-slider.css">
+    <link rel="stylesheet" href="{{URL::to('/')}}/assets/css/plugins/nice-select.css">
     @livewireStyles
     <!-- Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="{{URL::to('/')}}/assets/css/style.min.css">
 
 </head>
 
@@ -65,19 +65,19 @@
 
     <!-- JS Vendor, Plugins & Activation Script Files -->
 
-    <script src="assets/js/vendor/modernizr-3.11.7.min.js"></script>
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="{{URL::to('/')}}/assets/js/vendor/modernizr-3.11.7.min.js"></script>
+    <script src="{{URL::to('/')}}/assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="{{URL::to('/')}}/assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <script src="{{URL::to('/')}}/assets/js/vendor/bootstrap.bundle.min.js"></script>
 
     <!-- Plugins JS -->
-    <script src="assets/js/plugins/swiper-bundle.min.js"></script>
-    <script src="assets/js/plugins/fancybox.min.js"></script>
-    <script src="assets/js/plugins/range-slider.js"></script>
-    <script src="assets/js/plugins/jquery.nice-select.min.js"></script>
+    <script src="{{URL::to('/')}}/assets/js/plugins/swiper-bundle.min.js"></script>
+    <script src="{{URL::to('/')}}/assets/js/plugins/fancybox.min.js"></script>
+    <script src="{{URL::to('/')}}/assets/js/plugins/range-slider.js"></script>
+    <script src="{{URL::to('/')}}/assets/js/plugins/jquery.nice-select.min.js"></script>
 
     <!-- Custom Main JS -->
-    <script src="assets/js/main.js"></script>
+    <script src="{{URL::to('/')}}/assets/js/main.js"></script>
     @livewireScripts
 </body>
 

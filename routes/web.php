@@ -21,6 +21,7 @@ Route::get('/', [Home::class, 'index']);
 Route::get('/about', [Contact::class, 'index']);
 Route::get('/contact', [About::class, 'index']);
 Route::get('/catalog', [Catalog::class, 'index']);
+Route::get('/catalog/{id}', [Catalog::class, 'catalogInfo']);
 
 Route::get('/dashboard', [Admin::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
 
