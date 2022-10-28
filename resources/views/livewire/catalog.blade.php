@@ -1,6 +1,6 @@
 <div>
     <!--== Start Page Header Area Wrapper ==-->
-    <section class="page-header-area pt-10 pb-9" style ="background-color:#F9F6EE"s>
+    <section class="page-header-area pt-10 pb-9" style="background-color:#F9F6EE" s>
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
@@ -226,13 +226,14 @@
                                         <h3 class="product-details-title">{{$products->judul}}</h3>
                                         <div class="product-details-review mb-5">
                                             <div class="product-review-icon">
-                                                <i class="fa fa-star-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                                <i class="fa fa-star-half-o"></i>
+                                                @for ($i = 0; $i < (int)$products->star; $i++)
+                                                    <i class="fa fa-star"></i>
+                                                    @endfor
+                                                    @if ((float)$products->star-$i==0.5)
+                                                    <i class="fa fa-star-half-o"></i>
+                                                    @endif
                                             </div>
-                                            <button type="button" class="product-review-show">150 reviews</button>
+                                            <button type="button" class="product-review-show">{{$products->review}} reviews</button>
                                         </div>
                                         <p class="mb-6">{{$products->deskripsi}}</p>
                                         <div class="product-details-pro-qty">
