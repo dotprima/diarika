@@ -29,7 +29,7 @@
             <div class="row product-details">
                 <div class="col-lg-6">
                     <div class="product-details-thumb">
-                        <img src="{{URL::to('/')}}/product/{{$productInfo->image}}" width="570" height="693"
+                        <img src="{{env('APP_URL')}}/product/{{$productInfo->image}}" width="570" height="693"
                             alt="Image">
                         <span class="flag-new">new</span>
                     </div>
@@ -161,8 +161,8 @@
     <!--== Start Product Banner Area Wrapper ==-->
     <div class="container">
         <!--== Start Product Category Item ==-->
-        <a href="{{URL::to('/')}}/catalog" class="product-banner-item">
-            <img src="{{URL::to('/')}}/assets/images/shop/banner/banner.png" width="1170" height="240"
+        <a href="{{env('APP_URL')}}/catalog" class="product-banner-item">
+            <img src="{{env('APP_URL')}}/assets/images/shop/banner/banner.png" width="1170" height="240"
                 alt="Image-HasTech">
         </a>
         <!--== End Product Category Item ==-->
@@ -191,8 +191,8 @@
                                 <!--== Start Product Item ==-->
                                 <div class="product-item product-st2-item">
                                     <div class="product-thumb">
-                                        <a class="d-block" href="{{URL::to('/')}}/catalog/{{$products->url}}">
-                                            <img src="{{URL::to('/')}}/product/{{$products->image}}" width="370"
+                                        <a class="d-block" href="{{env('APP_URL')}}/catalog/{{$products->url}}">
+                                            <img src="{{env('APP_URL')}}/product/{{$products->image}}" width="370"
                                                 height="450" alt="Image-HasTech">
                                         </a>
                                         <span class="flag-new">new</span>
@@ -210,7 +210,7 @@
                                             <div class="reviews">{{$products->review}} reviews</div>
                                         </div>
                                         <h4 class="title"><a
-                                                href="{{URL::to('/')}}/catalog/{{$products->url}}">{{$products->judul}}</a>
+                                                href="{{env('APP_URL')}}/catalog/{{$products->url}}">{{$products->judul}}</a>
                                         </h4>
                                         <div class="prices">
                                             <span class="price">{{$products->harga}}</span>
@@ -258,7 +258,7 @@
                                 <div class="col-lg-6">
                                     <!--== Start Product Thumbnail Area ==-->
                                     <div class="product-single-thumb">
-                                        <img src="{{URL::to('/')}}/product/{{$products->image}}" width="544"
+                                        <img src="{{env('APP_URL')}}/product/{{$products->image}}" width="544"
                                             height="560" alt="Image-HasTech">
                                     </div>
                                     <!--== End Product Thumbnail Area ==-->

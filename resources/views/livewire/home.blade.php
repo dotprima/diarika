@@ -30,7 +30,7 @@
                     <!--== Start Product Item ==-->
                     <div class="product-item">
                         <div class="product-thumb">
-                            <a class="d-block" href="{{URL::to('/')}}/catalog/{{$products->url}}">
+                            <a class="d-block" href="{{env('APP_URL')}}/catalog/{{$products->url}}">
                                 <img src="product/{{$products->image}}" width="370" height="450" alt="Image-HasTech">
                             </a>
                             <span class="flag-new">new</span>
@@ -61,7 +61,7 @@
                                 </div>
                                 <div class="reviews">{{$products->review}} reviews</div>
                             </div>
-                            <h4 class="title"><a href="{{URL::to('/')}}/catalog/{{$products->url}}">{{$products->judul}}</a></h4>
+                            <h4 class="title"><a href="{{env('APP_URL')}}/catalog/{{$products->url}}">{{$products->judul}}</a></h4>
                             <div class="prices">
                                 <span class="price">{{$products->harga}}</span>
                                 <span class="price-old">300.00</span>
