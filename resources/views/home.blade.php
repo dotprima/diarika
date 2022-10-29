@@ -311,9 +311,9 @@
                                                     <i class="fa fa-star-half-o"></i>
                                                     @endif
                                             </div>
-                                            <button type="button" class="product-review-show">150 reviews</button>
+                                            <button type="button" class="product-review-show">{{$products->review}} reviews</button>
                                         </div>
-                                        <p class="mb-6">{{$products->deskripsi}}</p>
+                                        <p class="mb-6"><?=$products->deskripsi?></p>
                                         <div class="product-details-pro-qty">
                                             <div class="pro-qty">
                                                 <input type="text" title="Quantity" value="01">

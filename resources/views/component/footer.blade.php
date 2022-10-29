@@ -42,7 +42,7 @@
         <div class="container pt-0 pb-0">
             <div class="footer-bottom-content">
                 <p class="copyright">© 2022 Diarika. Made with <i class="fa fa-heart"></i> by <a target="_blank"
-                        href="https://themeforest.net/user/codecarnival">Prima.Js.</a></p>
+                        href="https://dotprima.com">Prima.Js.</a></p>
             </div>
         </div>
     </div>

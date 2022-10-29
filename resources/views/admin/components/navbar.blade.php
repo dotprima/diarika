@@ -135,10 +135,17 @@
                              Home
                          </p>
                      </a>
-                     <a href="/dashboard/add-catalog" class="nav-link">
+                     <a href="/dashboard/product" class="nav-link">
                          <i class="nav-icon far fa-image"></i>
                          <p>
-                             Tambah Catalog
+                             Product
+                         </p>
+                     </a>
+
+                     <a href="/dashboard/product/add" class="nav-link">
+                         <i class="nav-icon far fa-image"></i>
+                         <p>
+                             Add Product
                          </p>
                      </a>
                  </li>

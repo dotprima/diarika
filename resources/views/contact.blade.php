@@ -58,7 +58,7 @@
                 </div>
             </div>
         </div>
-        <div class="contact-left-img" data-bg-img="assets/images/FPK202206214-removebg-preview.png"></div>
+        <div class="contact-left-img" data-bg-img="assets/images/FPK202206213-removebg-preview.png"></div>
     </section>
     <!--== End Contact Area Wrapper ==-->
 

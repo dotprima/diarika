@@ -73,7 +73,8 @@ function rupiah($angka){
                         <tr>
                             <td>
                                 <li class="list-inline-item">
-                                    <img alt="Avatar" class="table-avatar" src="product/{{$products->image}}">
+                                    <img alt="Avatar" class="table-avatar"
+                                        src="{{env('APP_URL')}}/product/{{$products->image}}">
                                 </li>
                             </td>
                             <td>
@@ -93,12 +94,7 @@ function rupiah($angka){
                                 </a>
                             </td>
                             <td>
-                                @for ($i = 0; $i < (int)$products->star; $i++)
-                                    <i class="fa fa-star"></i>
-                                    @endfor
-                                    @if ((float)$products->star-$i==0.5)
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                    @endif
+                                {{$products->star}}
                             </td>
                             <td>
                                 <a>
@@ -106,17 +102,17 @@ function rupiah($angka){
                                 </a>
                             </td>
                             <td class="project-actions text-right">
-                                <a class="btn btn-primary btn-sm" href="/product/<?=$products->_id?>">
+                                <a class="btn btn-primary btn-sm" href="/catalog/<?=$products->url?>">
                                     <i class="fas fa-folder">
                                     </i>
                                     View
                                 </a>
-                                <a class="btn btn-info btn-sm" href="#">
+                                <a class="btn btn-info btn-sm" href="product/edit/<?=$products->_id?>">
                                     <i class="fas fa-pencil-alt">
                                     </i>
                                     Edit
                                 </a>
-                                <a class="btn btn-danger btn-sm" href="#">
+                                <a class="btn btn-danger btn-sm" href="product/edit/<?=$products->_id?>">
                                     <i class="fas fa-trash">
                                     </i>
                                     Delete
