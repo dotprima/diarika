@@ -1,7 +1,14 @@
 @extends('component.wrapper')
 
 @section('content')
-
+<?php
+function rupiah($angka){
+	
+	$hasil_rupiah = "Rp " . number_format($angka);
+	return $hasil_rupiah;
+ 
+}
+?>
 <main class="main-content">
 
     <!--== Start Page Header Area Wrapper ==-->
@@ -54,7 +61,7 @@
                                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="qtyList1"
                                     checked>
                                 <label class="form-check-label" for="qtyList1">{{$productInfo->ukuran}}
-                                    <b>{{$productInfo->harga}}</b></label>
+                                    <b>{{rupiah($productInfo->harga)}}</b></label>
                             </div>
                         </div>
                         <div class="product-details-pro-qty">
@@ -67,7 +74,7 @@
                             <label class="form-check-label" for="ShippingCost">Dirikim dari Ciamis</label>
                         </div>
                         <div class="product-details-action">
-                            <h4 class="price">{{$productInfo->harga}}</h4>
+                            <h5>{{rupiah($productInfo->harga)}}</h5>
                             <div class="product-details-cart-wishlist">
                                 <button type="button" class="btn-wishlist" data-bs-toggle="modal"
                                     data-bs-target="#action-WishlistModal"><i class="fa fa-heart-o"></i></button>
@@ -89,9 +96,8 @@
                     <div class="tab-content" id="product-details-nav-tabContent">
                         <div class="tab-pane fade show active" id="specification" role="tabpanel"
                             aria-labelledby="specification-tab">
-
-
-                            <p>{{$productInfo->deskripsi}}</p>
+                            
+                            <?= $productInfo->deskripsi?>
                         </div>
 
 
@@ -213,7 +219,7 @@
                                                 href="{{env('APP_URL')}}/catalog/{{$products->url}}">{{$products->judul}}</a>
                                         </h4>
                                         <div class="prices">
-                                            <span class="price">{{$products->harga}}</span>
+                                            <span class="price">{{rupiah($products->harga)}}</span>
                                             <span class="price-old">300.00</span>
                                         </div>
                                         <div class="product-action">
@@ -277,17 +283,16 @@
                                                     <i class="fa fa-star-half-o"></i>
                                                     @endif
                                             </div>
-                                            <button type="button" class="product-review-show">{{$products->review}}
-                                                reviews</button>
+                                            <button type="button" class="product-review-show">{{$products->review}} reviews</button>
                                         </div>
-                                        <p class="mb-6">{{$products->deskripsi}}</p>
+                                        <p class="mb-6"><?=$products->deskripsi?></p>
                                         <div class="product-details-pro-qty">
                                             <div class="pro-qty">
                                                 <input type="text" title="Quantity" value="01">
                                             </div>
                                         </div>
                                         <div class="product-details-action">
-                                            <h4 class="price">{{$products->harga}}</h4>
+                                            <h5 >{{rupiah($products->harga)}}</h5>
                                             <div class="product-details-cart-wishlist">
                                                 <button type="button" class="btn" data-bs-toggle="modal"
                                                     data-bs-target="#action-CartAddModal">Add to cart</button>

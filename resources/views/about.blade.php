@@ -8,8 +8,9 @@
             <div class="row align-items-center">
                 <div class="col-md-7 col-lg-7 col-xl-5">
                     <div class="page-header-content">
-                        <div class="title-img"><img src="assets/images/photos/about-title.webp" alt="Image"></div>
-                        <h2 class="page-header-title">We, are Brancy</h2>
+                    <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo.png"
+                                            width="200" height="132" alt="Image"></div>
+                        <h2 class="page-header-title">Clean Fresh</h2>
                         <h4 class="page-header-sub-title">Best cosmetics provider</h4>
                         <p class="page-header-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
                             purus sit amet luctus venenatis.</p>
@@ -17,7 +18,7 @@
                 </div>
                 <div class="col-md-5 col-lg-5 col-xl-7">
                     <div class="page-header-thumb">
-                        <img src="assets/images/photos/about1.webp" width="570" height="669" alt="Image">
+                        <img src="assets/images/FPK202206214-removebg-preview.png" width="570" height="669" alt="Image">
                     </div>
                 </div>
             </div>
@@ -35,8 +36,8 @@
                         <div class="icon">
                             <img src="assets/images/icons/funfact1.webp" width="110" height="110" alt="Icon">
                         </div>
-                        <h2 class="funfact-number">5000+</h2>
-                        <h6 class="funfact-title">Clients</h6>
+                        <h2 class="funfact-number">2000+</h2>
+                        <h6 class="funfact-title">Pelanggan</h6>
                     </div>
                     <!--== End Funfact Item ==-->
                 </div>
@@ -46,8 +47,8 @@
                         <div class="icon">
                             <img src="assets/images/icons/funfact2.webp" width="110" height="110" alt="Icon">
                         </div>
-                        <h2 class="funfact-number">250+</h2>
-                        <h6 class="funfact-title">Projects</h6>
+                        <h2 class="funfact-number">10.000 +</h2>
+                        <h6 class="funfact-title">Terjual</h6>
                     </div>
                     <!--== End Funfact Item ==-->
                 </div>
@@ -57,8 +58,8 @@
                         <div class="icon">
                             <img src="assets/images/icons/funfact3.webp" width="110" height="110" alt="Icon">
                         </div>
-                        <h2 class="funfact-number">1.5M+</h2>
-                        <h6 class="funfact-title">Revenue</h6>
+                        <h2 class="funfact-number">1.000 +</h2>
+                        <h6 class="funfact-title">Feedback</h6>
                     </div>
                     <!--== End Funfact Item ==-->
                 </div>

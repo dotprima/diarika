@@ -1,4 +1,12 @@
 <div>
+    <?php
+function rupiah($angka){
+	
+	$hasil_rupiah = "Rp " . number_format($angka);
+	return $hasil_rupiah;
+ 
+}
+?>
     <!--== Start Page Header Area Wrapper ==-->
     <section class="page-header-area pt-10 pb-9" style="background-color:#F9F6EE" s>
         <div class="container">
@@ -156,7 +164,7 @@
                             <h4 class="title"><a
                                     href="{{env('APP_URL')}}/catalog/{{$products->url}}">{{$products->judul}}</a></h4>
                             <div class="prices">
-                                <span class="price">{{$products->harga}}</span>
+                                <span class="price">{{rupiah($products->harga)}}</span>
                                 <span class="price-old">300.00</span>
                             </div>
                         </div>
@@ -233,16 +241,17 @@
                                                     <i class="fa fa-star-half-o"></i>
                                                     @endif
                                             </div>
-                                            <button type="button" class="product-review-show">{{$products->review}} reviews</button>
+                                            <button type="button" class="product-review-show">{{$products->review}}
+                                                reviews</button>
                                         </div>
-                                        <p class="mb-6">{{$products->deskripsi}}</p>
+                                        <p class="mb-6"><?=$products->deskripsi?></p>
                                         <div class="product-details-pro-qty">
                                             <div class="pro-qty">
                                                 <input type="text" title="Quantity" value="01">
                                             </div>
                                         </div>
                                         <div class="product-details-action">
-                                            <h4 class="price">{{$products->harga}}</h4>
+                                            <h5>{{rupiah($products->harga)}}</h5>
                                             <div class="product-details-cart-wishlist">
                                                 <button type="button" class="btn" data-bs-toggle="modal"
                                                     data-bs-target="#action-CartAddModal">Add to cart</button>

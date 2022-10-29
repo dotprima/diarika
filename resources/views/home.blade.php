@@ -320,7 +320,7 @@
                                             </div>
                                         </div>
                                         <div class="product-details-action">
-                                            <h4 class="price">{{$products->harga}}</h4>
+                                            <h5 class="price">{{rupiah($products->harga)}}</h5>
                                             <div class="product-details-cart-wishlist">
                                                 <button type="button" class="btn" data-bs-toggle="modal"
                                                     data-bs-target="#action-CartAddModal">Add to cart</button>

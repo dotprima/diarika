@@ -1,6 +1,14 @@
 @extends('admin.components.wrapper')
 
 @section('content')
+<?php
+function rupiah($angka){
+	
+	$hasil_rupiah = "Rp " . number_format($angka);
+	return $hasil_rupiah;
+ 
+}
+?>
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
@@ -31,7 +39,7 @@
                     <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
                         <i class="fas fa-minus"></i>
                     </button>
-                    
+
                 </div>
             </div>
             <div class="card-body p-0">
@@ -76,12 +84,12 @@
                             </td>
                             <td>
                                 <a>
-                                    {{$products->deskripsi}}
+                                    <?=$products->deskripsi?>
                                 </a>
                             </td>
                             <td>
                                 <a>
-                                    {{$products->harga}}
+                                    {{rupiah($products->harga)}}
                                 </a>
                             </td>
                             <td>

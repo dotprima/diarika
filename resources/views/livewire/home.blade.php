@@ -1,4 +1,12 @@
 <div>
+    <?php
+function rupiah($angka){
+	
+	$hasil_rupiah = "Rp " . number_format($angka);
+	return $hasil_rupiah;
+ 
+}
+?>
     <section class="section-space">
 
         <div class="container">
@@ -61,10 +69,11 @@
                                 </div>
                                 <div class="reviews">{{$products->review}} reviews</div>
                             </div>
-                            <h4 class="title"><a href="{{env('APP_URL')}}/catalog/{{$products->url}}">{{$products->judul}}</a></h4>
+                            <h4 class="title"><a
+                                    href="{{env('APP_URL')}}/catalog/{{$products->url}}">{{$products->judul}}</a></h4>
                             <div class="prices">
-                                <span class="price">{{$products->harga}}</span>
-                                <span class="price-old">300.00</span>
+                                <span class="price">{{rupiah($products->harga)}}</span>
+                                <span class="price-old">Rp 449,999</span>
                             </div>
                         </div>
                         <div class="product-action-bottom">

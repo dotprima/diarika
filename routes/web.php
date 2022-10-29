@@ -18,11 +18,12 @@ use App\Http\Controllers\Admin;
 */
 
 Route::get('/', [Home::class, 'index']);
-Route::get('/about', [Contact::class, 'index']);
-Route::get('/contact', [About::class, 'index']);
+Route::get('/about', [About::class, 'index']);
+Route::get('/contact', [Contact::class, 'index']);
 Route::get('/catalog', [Catalog::class, 'index']);
 Route::get('/catalog/{id}', [Catalog::class, 'catalogInfo']);
 
 Route::get('/dashboard', [Admin::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
 Route::get('/dashboard/add-catalog', [Admin::class, 'addcatalog'])->middleware(['auth', 'verified'])->name('dashboard');
+Route::post('/dashboard/add-catalog', [Admin::class, 'storecatalog'])->middleware(['auth', 'verified'])->name('dashboard');
 require __DIR__.'/auth.php';

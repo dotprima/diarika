@@ -2,94 +2,156 @@
 
 @section('content')
 <section class="content-wrapper" style="padding: 10px;">
-    <div class="row">
-        <div class="col-md-6">
-            <div class="card card-primary">
-                <div class="card-header">
-                    <h3 class="card-title">General</h3>
+    <form method="POST">
+        @csrf
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">General</h3>
 
-                    <div class="card-tools">
-                        <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                            <i class="fas fa-minus"></i>
-                        </button>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <div class="form-group">
-                        <label for="inputName">Judul</label>
-                        <input type="text" id="judul" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputDescription">Deskripsi</label>
-                        <textarea id="deskripsi" class="form-control" rows="4"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputStatus">Kategori</label>
-                        <select id="kategori" class="form-control custom-select">
-                            <option selected disabled>Select one</option>
-                            <option>On Hold</option>
-                            <option>Canceled</option>
-                            <option>Success</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <div class="custom-file">
-                            <input type="file" class="custom-file-input" id="exampleInputFile">
-                            <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                                <i class="fas fa-minus"></i>
+                            </button>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label for="inputProjectLeader">Project Leader</label>
-                        <input type="text" id="inputProjectLeader" class="form-control">
-                    </div>
-                </div>
-                <!-- /.card-body -->
-            </div>
-            <!-- /.card -->
-        </div>
-        <div class="col-md-6">
-            <div class="card card-secondary">
-                <div class="card-header">
-                    <h3 class="card-title">Budget</h3>
+                    <div class="card-body">
+                        <div class="form-group">
 
-                    <div class="card-tools">
-                        <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                            <i class="fas fa-minus"></i>
-                        </button>
+                            <label for="inputName">Judul</label>
+                            <input type="text" name="judul" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputDescription">Deskripsi</label>
+                            <input type="hidden" name="deskripsi" value="">
+                            <div id="editor" style="min-height: 160px;"></div>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="inputStatus">Kategori</label>
+                            <select name="kategori" class="form-control custom-select" required>
+                                <option selected disabled>Select one</option>
+                                <option value="Skin Care">Skin Care</option>
+                                <option value="Treatment">Treatment</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputDescription">Gambar</label>
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" name="image" required>
+                                <label class="custom-file-label" for="image">Choose file</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputProjectLeader">Harga</label>
+                            <input type="text" name="harga" class="form-control" required>
+                        </div>
                     </div>
+                    <!-- /.card-body -->
                 </div>
-                <div class="card-body">
-                    <div class="form-group">
-                        <label for="inputEstimatedBudget">Estimated budget</label>
-                        <input type="number" id="inputEstimatedBudget" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label for="inputSpentBudget">Total amount spent</label>
-                        <input type="number" id="inputSpentBudget" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEstimatedDuration">Estimated project duration</label>
-                        <input type="number" id="inputEstimatedDuration" class="form-control">
-                    </div>
-                </div>
-                <!-- /.card-body -->
+                <!-- /.card -->
             </div>
-            <!-- /.card -->
+            <div class="col-md-6">
+                <div class="card card-secondary">
+                    <div class="card-header">
+                        <h3 class="card-title">Input</h3>
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="inputEstimatedBudget">Review</label>
+                            <input type="number" name="review" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEstimatedBudget">Bintang</label>
+                            <select name="bintang" class="form-control custom-select" required>
+                                <option selected disabled>Select one</option>
+                                <option value="1">Bintang 1</option>
+                                <option value="1.5">Bintang 1 Setengah</option>
+                                <option value="2">Bintang 2</option>
+                                <option value="2.5">Bintang 2 Setengah</option>
+                                <option value="3">Bintang 3</option>
+                                <option value="3.5">Bintang 3 Setengah</option>
+                                <option value="4">Bintang 4</option>
+                                <option value="4.5">Bintang 4 Setengah</option>
+                                <option value="5">Bintang 5</option>
+                                <option value="5.5">Bintang 5 Setengah</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEstimatedDuration">Url</label>
+                            <input type="text" name="url" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEstimatedDuration">Ukuran</label>
+                            <input type="text" name="ukuran" class="form-control" required>
+                        </div>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            <a href="#" class="btn btn-secondary">Cancel</a>
-            <input type="submit" value="Create new Project" class="btn btn-success float-right">
+        <div class="row">
+            <div class="col-12">
+                <a href="#" class="btn btn-secondary">Cancel</a>
+                <input type="submit" value="Create new Project" class="btn btn-success float-right">
+            </div>
         </div>
-    </div>
+    </form>
 </section>
 @endsection
 
 @section('css')
-
+<link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
 @endsection
 
 @section('js')
 <script src="../../plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
+<script>
+$(function() {
+    bsCustomFileInput.init();
+});
+</script>
+<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+<script>
+var quill = new Quill('#editor', {
+    theme: 'snow',
+    modules: {
+        toolbar: [
+            [{
+                header: [1, 2, 3, 4, 5, 6, false]
+            }],
+            [{
+                font: []
+            }],
+            ["bold", "italic"],
+            ["link", "blockquote", "code-block", "image"],
+            [{
+                list: "ordered"
+            }, {
+                list: "bullet"
+            }],
+            [{
+                script: "sub"
+            }, {
+                script: "super"
+            }],
+            [{
+                color: []
+            }, {
+                background: []
+            }],
+        ]
+    },
+});
+quill.on('text-change', function(delta, oldDelta, source) {
+    document.querySelector("input[name='deskripsi']").value = quill.root.innerHTML;
+});
+</script>
 @endsection
