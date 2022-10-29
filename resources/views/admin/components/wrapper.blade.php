@@ -15,6 +15,7 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.webp">
+    @yield('css')
 </head>
 
 <body class="hold-transition sidebar-mini">
@@ -42,7 +43,7 @@
     <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- AdminLTE App -->
     <script src="../../dist/js/adminlte.min.js"></script>
-
+    @yield('js')
 </body>
 
 </html>

@@ -39,9 +39,9 @@
                         <div class="row align-items-center position-relative">
                             <div class="col-12 col-md-6">
                                 <div class="hero-slide-content">
-                                    <div class="hero-slide-text-img"><img src="assets/images/slider/text-theme.webp"
-                                            width="427" height="232" alt="Image"></div>
-                                    <h2 class="hero-slide-title">CLEAN FRESH</h2>
+                                    <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo.png"
+                                            width="327" height="132" alt="Image"></div>
+                                    <h2 class="hero-slide-title" style="padding-top: 50px;">CLEAN FRESH</h2>
                                     <p class="hero-slide-desc">Lorem ipsum dolor sit amet, consectetur
                                         adipiscing elit ut aliquam, purus sit amet luctus venenatis.</p>
                                     <a class="btn btn-border-dark" href="/catalog">BUY NOW</a>
@@ -65,9 +65,9 @@
                         <div class="row align-items-center position-relative">
                             <div class="col-12 col-md-6">
                                 <div class="hero-slide-content">
-                                    <div class="hero-slide-text-img"><img src="assets/images/slider/text-theme.webp"
-                                            width="427" height="232" alt="Image"></div>
-                                    <h2 class="hero-slide-title">CLEAN FRESH</h2>
+                                    <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo.png"
+                                            width="327" height="132" alt="Image"></div>
+                                    <h2 class="hero-slide-title" style="padding-top: 50px;">CLEAN FRESH</h2>
                                     <p class="hero-slide-desc">Lorem ipsum dolor sit amet, consectetur
                                         adipiscing elit ut aliquam, purus sit amet luctus venenatis.</p>
                                     <a class="btn btn-border-dark" href="/catalog">BUY NOW</a>
