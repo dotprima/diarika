@@ -13,4 +13,12 @@ class Admin extends Controller
             'product' => $product
         ]);
     }
+
+    public function addcatalog()
+    {
+        $product = Product::all();
+        return view('admin.addcatalog', [
+            'product' => $product
+        ]);
+    }
 }
