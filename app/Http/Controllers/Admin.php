@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 use App\Models\Product;
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\File; 
 class Admin extends Controller
 {
     public function index()
@@ -156,21 +156,15 @@ class Admin extends Controller
 
     }
 
-    public function deltecatalog(Request $request)
+    public function detelecatalog(Request $request)
     {
-        $product = new Product;
- 
-        $product->judul = $request->judul;
-        $product->deskripsi = $request->deskripsi;
-        $product->kategori = $request->kategori;
-        $product->image = $request->image;
-        $product->harga = $request->harga;
-        $product->review = $request->review;
-        $product->star = $request->star;
-        $product->url = $request->url;
-        $product->ukuran = $request->ukuran;
- 
-        $product->save();
 
+        $product = Product::find($request->_id);
+        File::delete('product/'.$product->image);
+        if( $product->delete()){
+            return redirect()->back()->with('success', 'Data berhasil di hapus');
+        }else{
+            return redirect()->back()->with('error', 'Data gagal di hapus');   
+        }
     }
 }

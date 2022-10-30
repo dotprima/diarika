@@ -31,6 +31,6 @@ Route::get('/dashboard/product/edit/{id}', [Admin::class, 'cataloginfo'])->middl
 
 Route::post('/dashboard/product/add', [Admin::class, 'storecatalog'])->middleware(['auth', 'verified'])->name('dashboard');
 Route::put('/dashboard/add-catalog', [Admin::class, 'editcatalog'])->middleware(['auth', 'verified'])->name('dashboard');
-Route::delete('/dashboard/add-catalog', [Admin::class, 'detelecatalog'])->middleware(['auth', 'verified'])->name('dashboard');
+Route::delete('/dashboard/product', [Admin::class, 'detelecatalog'])->middleware(['auth', 'verified'])->name('dashboard');
 Route::post('/dashboard/product/diskon', [Admin::class, 'storediskon'])->middleware(['auth', 'verified'])->name('dashboard');
 require __DIR__.'/auth.php';

@@ -29,7 +29,27 @@ function rupiah($angka){
 
     <!-- Main content -->
     <section class="content">
-
+        @if (Session::has('success'))
+        <div class="alert alert-success">
+            <ul>
+                <li>{{ Session::get('success') }}</li>
+            </ul>
+        </div>
+        @endif
+        @if (Session::has('error'))
+        <div class="alert alert-danger">
+            <ul>
+                <li>{{ Session::get('error') }}</li>
+            </ul>
+        </div>
+        @endif
+        @if(count($errors) > 0)
+        <div class="alert alert-danger">
+            @foreach ($errors->all() as $error)
+            {{ $error }} <br />
+            @endforeach
+        </div>
+        @endif
         <!-- Default box -->
         <div class="card">
             <div class="card-header">
@@ -112,13 +132,43 @@ function rupiah($angka){
                                     </i>
                                     Edit
                                 </a>
-                                <a class="btn btn-danger btn-sm" href="product/edit/<?=$products->_id?>">
-                                    <i class="fas fa-trash">
-                                    </i>
+                                <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
+                                    data-target="#modal-default-<?=$products->_id?>">
                                     Delete
-                                </a>
+                                </button>
                             </td>
                         </tr>
+                        <div class="modal fade" id="modal-default-<?=$products->_id?>">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <form method="POST">
+                                        @csrf
+                                        @method('delete')
+                                        <input type="hidden" name="_id" value="<?=$products->_id?>">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Hapus <?=$products->judul?></h4>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+
+                                            <div class="card-body">
+                                                <p>Apakah Ada yakin ingin menghapus data <?=$products->judul?></p>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-footer justify-content-between">
+                                            <button type="button" class="btn btn-default"
+                                                data-dismiss="modal">Close</button>
+                                            <input type="submit" value="Hapus" class="btn btn-danger float-right">
+                                        </div>
+                                    </form>
+                                </div>
+                                <!-- /.content -->
+                            </div>
+                        </div>
                         @endforeach
 
                     </tbody>
