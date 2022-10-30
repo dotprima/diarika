@@ -114,9 +114,9 @@ class Admin extends Controller
         $file->move($tujuan_upload, $unique_name.".".$file->getClientOriginalExtension());
         
         if($product->save()){
-            return redirect()->back()->with('success', 'Data berhasil di update');
+            return redirect()->back()->with('success', 'Data berhasil di masukan');
         }else{
-            return redirect()->back()->with('error', 'Data gagal di update');   
+            return redirect()->back()->with('error', 'Data gagal di masukan');   
         }
         
 
