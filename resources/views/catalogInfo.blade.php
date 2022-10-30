@@ -324,5 +324,5 @@ function rupiah($angka){
 @endsection
 
 @section('css')
-<meta property="og:image" content="{{env('APP_URL')}}/product/{{$products->image}}" />
+<meta property="og:image" content="{{env('APP_URL')}}/thumnail/{{$products->image}}" />
 @endsection

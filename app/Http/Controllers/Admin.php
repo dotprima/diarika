@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use App\Models\Product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File; 
+use Image;
 class Admin extends Controller
 {
     public function index()
@@ -103,8 +104,15 @@ class Admin extends Controller
         $product->star = $request->star;
         $product->url = $request->url;
         $product->ukuran = $request->ukuran;
-        $file->move($tujuan_upload, $unique_name.".".$file->getClientOriginalExtension());
+       
 
+        $image = $request->file('image');
+        $img = Image::make($image->path());
+        $img->resize(200, 200, function ($const) {
+            $const->aspectRatio();
+        })->save('thumnail/'.$unique_name.".".$file->getClientOriginalExtension());
+        $file->move($tujuan_upload, $unique_name.".".$file->getClientOriginalExtension());
+        
         if($product->save()){
             return redirect()->back()->with('success', 'Data berhasil di update');
         }else{
@@ -134,6 +142,11 @@ class Admin extends Controller
             $filename = $file->getClientOriginalName();
             $unique_name = md5($filename. time());
             $tujuan_upload = 'product';
+            $image = $request->file('image');
+            $img = Image::make($image->path());
+            $img->resize(200, 200, function ($const) {
+                $const->aspectRatio();
+            })->save('thumnail/'.$unique_name.".".$file->getClientOriginalExtension());
             $file->move($tujuan_upload, $unique_name.".".$file->getClientOriginalExtension());
             $product->image = $unique_name.".".$file->getClientOriginalExtension();
         }
