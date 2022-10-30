@@ -15,6 +15,17 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="{{env('APP_URL')}}/dist/css/adminlte.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="{{env('APP_URL')}}/assets/images/favicon.webp">
+    <link rel="canonical" href="{{env('APP_URL')}}/" />
+	<meta property="og:locale" content="id_ID" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Diarika Kosmetik" />
+	<meta property="og:url" content="{{env('APP_URL')}}/" />
+	<meta property="og:site_name" content="Diarika Kosmetik" />
+	<meta property="article:modified_time" content="2022-08-18T01:56:38+00:00" />
+	<meta property="og:image" content="{{env('APP_URL')}}/assets/images/FPK202206212-removebg-preview.png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Estimasi waktu membaca" />
+	<meta name="twitter:data1" content="7 menit" />
     @yield('css')
 </head>
 

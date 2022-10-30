@@ -24,8 +24,7 @@
                             </div>
                             <div class="col-12 col-md-6" style="padding-top: 100px;">
                                 <div class="hero-slide-thumb">
-                                    <img src="assets/images/{{$hero['image']}}" width="841" height="832"
-                                        alt="Image">
+                                    <img src="assets/images/{{$hero['image']}}" width="841" height="832" alt="Image">
                                 </div>
                             </div>
                         </div>
@@ -313,7 +312,8 @@
                                                     <i class="fa fa-star-half-o"></i>
                                                     @endif
                                             </div>
-                                            <button type="button" class="product-review-show">{{$products->review}} reviews</button>
+                                            <button type="button" class="product-review-show">{{$products->review}}
+                                                reviews</button>
                                         </div>
                                         <p class="mb-6"><?=$products->deskripsi?></p>
                                         <div class="product-details-pro-qty">
@@ -324,8 +324,11 @@
                                         <div class="product-details-action">
                                             <h5 class="price">{{rupiah($products->harga)}}</h5>
                                             <div class="product-details-cart-wishlist">
-                                                <button type="button" class="btn" data-bs-toggle="modal"
-                                                    data-bs-target="#action-CartAddModal">Add to cart</button>
+                                               
+                                                <a href="/whatsapp?id={{$products->_id}}" target="_blank" rel="nofollow"
+                                                    class="btn">
+                                                    <span>Beli Sekarang</span>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -343,4 +346,8 @@
 
 </main>
 
+@endsection
+
+@section('css')
+<meta property="og:image" content="{{env('APP_URL')}}/assets/images/FPK202206212-removebg-preview.png" />
 @endsection

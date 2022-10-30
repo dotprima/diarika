@@ -141,10 +141,9 @@ function rupiah($angka){
                                     data-bs-toggle="modal" data-bs-target="#action-QuickViewModal{{$products->_id}}">
                                     <i class="fa fa-expand"></i>
                                 </button>
-                                <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal"
-                                    data-bs-target="#action-CartAddModal">
-                                    <span>Add to cart</span>
-                                </button>
+                                 <a href="/whatsapp?id={{$products->_id}}" target="_blank" rel="nofollow" class="product-action-btn action-btn-cart">
+                                    <span>Beli Sekarang</span>
+                                </a>
                                 <button type="button" class="product-action-btn action-btn-wishlist"
                                     data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
                                     <i class="fa fa-heart-o"></i>
@@ -181,10 +180,10 @@ function rupiah($angka){
                                 data-bs-target="#action-WishlistModal">
                                 <i class="fa fa-heart-o"></i>
                             </button>
-                            <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal"
-                                data-bs-target="#action-CartAddModal">
-                                <span>Add to cart</span>
-                            </button>
+                            <a href="/whatsapp?id={{$products->_id}}" target="_blank" rel="nofollow"
+                                class="product-action-btn action-btn-cart">
+                                <span>Beli Sekarang</span>
+                            </a>
                         </div>
                     </div>
                     <!--== End prPduct Item ==-->
@@ -257,8 +256,9 @@ function rupiah($angka){
                                         <div class="product-details-action">
                                             <h5>{{rupiah($products->harga)}}</h5>
                                             <div class="product-details-cart-wishlist">
-                                                <button type="button" class="btn" data-bs-toggle="modal"
-                                                    data-bs-target="#action-CartAddModal">Add to cart</button>
+                                            <a href="/whatsapp?id={{$products->_id}}" target="_blank" rel="nofollow" class="btn">
+                                    <span>Beli Sekarang</span>
+                                </a>
                                             </div>
                                         </div>
                                     </div>

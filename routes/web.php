@@ -18,6 +18,7 @@ use App\Http\Controllers\Admin;
 */
 
 Route::get('/', [Home::class, 'index']);
+Route::get('/whatsapp', [Home::class, 'whatsapp']);
 Route::get('/about', [About::class, 'index']);
 Route::get('/contact', [Contact::class, 'index']);
 Route::get('/catalog', [Catalog::class, 'index']);

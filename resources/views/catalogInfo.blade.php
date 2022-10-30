@@ -38,9 +38,9 @@ function rupiah($angka){
                     <div class="product-details-thumb">
                         <img src="{{env('APP_URL')}}/product/{{$productInfo->image}}" width="570" height="693"
                             alt="Image">
-                            @if(isset($productInfo->status))
-                            <span class="flag-new">{{$productInfo->status}}</span>
-                            @endif
+                        @if(isset($productInfo->status))
+                        <span class="flag-new">{{$productInfo->status}}</span>
+                        @endif
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -80,8 +80,9 @@ function rupiah($angka){
                             <div class="product-details-cart-wishlist">
                                 <button type="button" class="btn-wishlist" data-bs-toggle="modal"
                                     data-bs-target="#action-WishlistModal"><i class="fa fa-heart-o"></i></button>
-                                <button type="button" class="btn" data-bs-toggle="modal"
-                                    data-bs-target="#action-CartAddModal">Add to cart</button>
+                                <a href="/whatsapp?id={{$productInfo->_id}}" target="_blank" rel="nofollow" class="btn">
+                                    <span>Beli Sekarang</span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -229,10 +230,10 @@ function rupiah($angka){
                                             @endif
                                         </div>
                                         <div class="product-action">
-                                            <button type="button" class="product-action-btn action-btn-cart"
-                                                data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
-                                                <span>Add to cart</span>
-                                            </button>
+                                            <a href="/whatsapp?id={{$products->_id}}" target="_blank" rel="nofollow"
+                                                class="product-action-btn action-btn-cart">
+                                                <span>Beli Sekarang</span>
+                                            </a>
                                             <button type="button" class="product-action-btn action-btn-quick-view"
                                                 data-bs-toggle="modal"
                                                 data-bs-target="#action-QuickViewModal{{$products->_id}}">
@@ -301,8 +302,10 @@ function rupiah($angka){
                                         <div class="product-details-action">
                                             <h5>{{rupiah($products->harga)}}</h5>
                                             <div class="product-details-cart-wishlist">
-                                                <button type="button" class="btn" data-bs-toggle="modal"
-                                                    data-bs-target="#action-CartAddModal">Add to cart</button>
+                                                <a href="/whatsapp?id={{$products->_id}}" target="_blank" rel="nofollow"
+                                                    class="btn">
+                                                    <span>Beli Sekarang</span>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -318,4 +321,8 @@ function rupiah($angka){
     @endforeach
 </main>
 
+@endsection
+
+@section('css')
+<meta property="og:image" content="{{env('APP_URL')}}/product/{{$products->image}}" />
 @endsection

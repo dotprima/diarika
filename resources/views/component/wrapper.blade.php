@@ -25,6 +25,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap"
         rel="stylesheet">
 
+    <link rel="canonical" href="{{env('APP_URL')}}" />
+	<meta property="og:locale" content="id_ID" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Diarika Kosmetik" />
+	<meta property="og:description" content="{{$home->meta['deskripsi']}}" />
+	<meta property="og:url" content="{{env('APP_URL')}}" />
+	<meta property="og:site_name" content="Diarika Kosmetik" />
+	<meta property="article:modified_time" content="2022-08-18T01:56:38+00:00" />
+	
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Estimasi waktu membaca" />
+	<meta name="twitter:data1" content="7 menit" />
+    @yield('css')
     <!-- Vendor CSS (Bootstrap & Icon Font) -->
     <link rel="stylesheet" href="{{env('APP_URL')}}/assets/css/vendor/bootstrap.min.css">
 
@@ -37,6 +50,7 @@
     @livewireStyles
     <!-- Style CSS -->
     <link rel="stylesheet" href="{{env('APP_URL')}}/assets/css/style.min.css">
+
 
 </head>
 
@@ -79,6 +93,7 @@
     <!-- Custom Main JS -->
     <script src="{{env('APP_URL')}}/assets/js/main.js"></script>
     @livewireScripts
+    @yield('js')
 </body>
 
 
