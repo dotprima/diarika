@@ -2,7 +2,7 @@
 
 @section('content')
 <section class="content-wrapper" style="padding: 10px;">
-    <form method="POST">
+    <form method="POST" enctype="multipart/form-data">
         @csrf
         @if (Session::has('success'))
         <div class="alert alert-success">
@@ -16,6 +16,13 @@
             <ul>
                 <li>{{ Session::get('error') }}</li>
             </ul>
+        </div>
+        @endif
+        @if(count($errors) > 0)
+        <div class="alert alert-danger">
+            @foreach ($errors->all() as $error)
+            {{ $error }} <br />
+            @endforeach
         </div>
         @endif
         <div class="row">
@@ -59,7 +66,7 @@
                         </div>
                         <div class="form-group">
                             <label for="inputProjectLeader">Harga</label>
-                            <input type="text" name="harga" class="form-control" required>
+                            <input type="number" name="harga" class="form-control" required>
                         </div>
                     </div>
                     <!-- /.card-body -->
@@ -103,6 +110,7 @@
                         <div class="form-group">
                             <label for="inputEstimatedDuration">Ukuran</label>
                             <input type="text" name="ukuran" class="form-control" required>
+                            <span>contoh 150 ml/ 150 gram</span>
                         </div>
                     </div>
                     <!-- /.card-body -->

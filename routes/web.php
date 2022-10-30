@@ -24,11 +24,13 @@ Route::get('/catalog', [Catalog::class, 'index']);
 Route::get('/catalog/{id}', [Catalog::class, 'catalogInfo']);
 
 Route::get('/dashboard', [Admin::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
-Route::get('/dashboard/product', [Admin::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/dashboard/product', [Admin::class, 'product'])->middleware(['auth', 'verified'])->name('dashboard');
 Route::get('/dashboard/product/add', [Admin::class, 'addcatalog'])->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/dashboard/product/diskon', [Admin::class, 'catalogdiskon'])->middleware(['auth', 'verified'])->name('dashboard');
 Route::get('/dashboard/product/edit/{id}', [Admin::class, 'cataloginfo'])->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::post('/dashboard/product/add', [Admin::class, 'storecatalog'])->middleware(['auth', 'verified'])->name('dashboard');
 Route::put('/dashboard/add-catalog', [Admin::class, 'editcatalog'])->middleware(['auth', 'verified'])->name('dashboard');
 Route::delete('/dashboard/add-catalog', [Admin::class, 'detelecatalog'])->middleware(['auth', 'verified'])->name('dashboard');
+Route::post('/dashboard/product/diskon', [Admin::class, 'storediskon'])->middleware(['auth', 'verified'])->name('dashboard');
 require __DIR__.'/auth.php';

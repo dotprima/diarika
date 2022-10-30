@@ -38,7 +38,9 @@ function rupiah($angka){
                     <div class="product-details-thumb">
                         <img src="{{env('APP_URL')}}/product/{{$productInfo->image}}" width="570" height="693"
                             alt="Image">
-                        <span class="flag-new">new</span>
+                            @if(isset($productInfo->status))
+                            <span class="flag-new">{{$productInfo->status}}</span>
+                            @endif
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -96,7 +98,7 @@ function rupiah($angka){
                     <div class="tab-content" id="product-details-nav-tabContent">
                         <div class="tab-pane fade show active" id="specification" role="tabpanel"
                             aria-labelledby="specification-tab">
-                            
+
                             <?= $productInfo->deskripsi?>
                         </div>
 
@@ -201,7 +203,9 @@ function rupiah($angka){
                                             <img src="{{env('APP_URL')}}/product/{{$products->image}}" width="370"
                                                 height="450" alt="Image-HasTech">
                                         </a>
-                                        <span class="flag-new">new</span>
+                                        @if(isset($products->status))
+                                        <span class="flag-new">{{$products->status}}</span>
+                                        @endif
                                     </div>
                                     <div class="product-info">
                                         <div class="product-rating">
@@ -220,7 +224,9 @@ function rupiah($angka){
                                         </h4>
                                         <div class="prices">
                                             <span class="price">{{rupiah($products->harga)}}</span>
-                                            <span class="price-old">300.00</span>
+                                            @if(isset($products->diskon))
+                                            <span class="price-old">{{rupiah($products->diskon)}}</span>
+                                            @endif
                                         </div>
                                         <div class="product-action">
                                             <button type="button" class="product-action-btn action-btn-cart"
@@ -283,7 +289,8 @@ function rupiah($angka){
                                                     <i class="fa fa-star-half-o"></i>
                                                     @endif
                                             </div>
-                                            <button type="button" class="product-review-show">{{$products->review}} reviews</button>
+                                            <button type="button" class="product-review-show">{{$products->review}}
+                                                reviews</button>
                                         </div>
                                         <p class="mb-6"><?=$products->deskripsi?></p>
                                         <div class="product-details-pro-qty">
@@ -292,7 +299,7 @@ function rupiah($angka){
                                             </div>
                                         </div>
                                         <div class="product-details-action">
-                                            <h5 >{{rupiah($products->harga)}}</h5>
+                                            <h5>{{rupiah($products->harga)}}</h5>
                                             <div class="product-details-cart-wishlist">
                                                 <button type="button" class="btn" data-bs-toggle="modal"
                                                     data-bs-target="#action-CartAddModal">Add to cart</button>

@@ -129,23 +129,30 @@
                with font-awesome or any other icon font library -->
 
                  <li class="nav-item">
-                     <a href="/dashboard" class="nav-link">
-                         <i class="nav-icon far fa-image"></i>
+                     <a href="/dashboard" class="nav-link <?php if($active=='home')echo 'active'?>">
+                         <i class="nav-icon fa-solid fa-house"></i>
                          <p>
                              Home
                          </p>
                      </a>
-                     <a href="/dashboard/product" class="nav-link">
-                         <i class="nav-icon far fa-image"></i>
+                     <a href="/dashboard/product" class="nav-link <?php if($active=='product')echo 'active'?>">
+                         <i class="nav-icon fa-solid fa-layer-group"></i>
                          <p>
                              Product
                          </p>
                      </a>
 
-                     <a href="/dashboard/product/add" class="nav-link">
-                         <i class="nav-icon far fa-image"></i>
+                     <a href="/dashboard/product/add" class="nav-link <?php if($active=='addcatalog')echo 'active'?>">
+                         <i class="nav-icon fa-solid fa-plus"></i>
                          <p>
                              Add Product
+                         </p>
+                     </a>
+
+                     <a href="/dashboard/product/diskon" class="nav-link <?php if($active=='diskon')echo 'active'?>">
+                         <i class="nav-icon fa-solid fa-percent"></i>
+                         <p>
+                             Add Diskon
                          </p>
                      </a>
                  </li>

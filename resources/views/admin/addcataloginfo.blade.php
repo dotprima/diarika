@@ -2,7 +2,7 @@
 
 @section('content')
 <section class="content-wrapper" style="padding: 10px;">
-    <form method="POST" action="/dashboard/add-catalog">
+    <form method="POST" action="/dashboard/add-catalog" enctype="multipart/form-data">
         @csrf
         @method('put')
         <input type="hidden" name="_id" value="<?=$product->_id?>">
@@ -20,7 +20,13 @@
             </ul>
         </div>
         @endif
-
+        @if(count($errors) > 0)
+        <div class="alert alert-danger">
+            @foreach ($errors->all() as $error)
+            {{ $error }} <br />
+            @endforeach
+        </div>
+        @endif
         <div class="row">
             <div class="col-md-6">
 

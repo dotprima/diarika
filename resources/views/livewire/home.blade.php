@@ -41,7 +41,9 @@ function rupiah($angka){
                             <a class="d-block" href="{{env('APP_URL')}}/catalog/{{$products->url}}">
                                 <img src="product/{{$products->image}}" width="370" height="450" alt="Image-HasTech">
                             </a>
-                            <span class="flag-new">new</span>
+                            @if(isset($products->status))
+                            <span class="flag-new">{{$products->status}}</span>
+                            @endif
                             <div class="product-action">
                                 <button type="button" class="product-action-btn action-btn-quick-view"
                                     data-bs-toggle="modal" data-bs-target="#action-QuickViewModal{{$products->_id}}">
@@ -73,7 +75,10 @@ function rupiah($angka){
                                     href="{{env('APP_URL')}}/catalog/{{$products->url}}">{{$products->judul}}</a></h4>
                             <div class="prices">
                                 <span class="price">{{rupiah($products->harga)}}</span>
-                                <span class="price-old">Rp 449,999</span>
+                                @if(isset($products->diskon))
+                                <span class="price-old">{{rupiah($products->diskon)}}</span>
+                                @endif
+                                
                             </div>
                         </div>
                         <div class="product-action-bottom">

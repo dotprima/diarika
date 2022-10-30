@@ -8,6 +8,8 @@
     <section class="hero-slider-area position-relative">
         <div class="swiper hero-slider-container" style="height: 850px;">
             <div class="swiper-wrapper">
+
+                @foreach($home->hero_home as $hero)
                 <div class="swiper-slide hero-slide-item">
                     <div class="container">
                         <div class="row align-items-center position-relative">
@@ -15,15 +17,14 @@
                                 <div class="hero-slide-content">
                                     <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo.png"
                                             width="327" height="132" alt="Image"></div>
-                                    <h2 class="hero-slide-title" style="padding-top: 50px;">CLEAN FRESH</h2>
-                                    <p class="hero-slide-desc">Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit ut aliquam, purus sit amet luctus venenatis.</p>
-                                    <a class="btn btn-border-dark" href="/catalog">BUY NOW</a>
+                                    <h2 class="hero-slide-title" style="padding-top: 50px;">{{$hero['judul']}}</h2>
+                                    <p class="hero-slide-desc">{{$hero['deskripsi']}}</p>
+                                    <a class="btn btn-border-dark" href="{{$hero['link']}}">Beli Sekarang</a>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6" style="padding-top: 100px;">
                                 <div class="hero-slide-thumb">
-                                    <img src="assets/images/FPK202206212-removebg-preview.png" width="841" height="832"
+                                    <img src="assets/images/{{$hero['image']}}" width="841" height="832"
                                         alt="Image">
                                 </div>
                             </div>
@@ -34,7 +35,8 @@
                             height="955" alt="Image"></div> -->
                     <div class="hero-slide-social-shape"></div>
                 </div>
-                <div class="swiper-slide hero-slide-item">
+                @endforeach
+                <!-- <div class="swiper-slide hero-slide-item">
                     <div class="container">
                         <div class="row align-items-center position-relative">
                             <div class="col-12 col-md-6">
@@ -85,7 +87,7 @@
                     <div class="hero-slide-text-shape"><img src="assets/images/slider/text1.webp" width="70"
                             height="955" alt="Image"></div>
                     <div class="hero-slide-social-shape"></div>
-                </div>
+                </div> -->
             </div>
             <!--== Add Pagination ==-->
             <div class="hero-slider-pagination"></div>
