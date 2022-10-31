@@ -9,7 +9,7 @@
         <div class="swiper hero-slider-container" style="height: 850px;">
             <div class="swiper-wrapper">
 
-                @foreach($home->hero_home as $hero)
+                
                 <div class="swiper-slide hero-slide-item">
                     <div class="container">
                         <div class="row align-items-center position-relative">
@@ -17,14 +17,14 @@
                                 <div class="hero-slide-content">
                                     <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo.png"
                                             width="327" height="132" alt="Image"></div>
-                                    <h2 class="hero-slide-title" style="padding-top: 50px;">{{$hero['judul']}}</h2>
-                                    <p class="hero-slide-desc">{{$hero['deskripsi']}}</p>
-                                    <a class="btn btn-border-dark" href="{{$hero['link']}}">Beli Sekarang</a>
+                                    <h2 class="hero-slide-title" style="padding-top: 50px;">Clean Fresh</h2>
+                                    <p class="hero-slide-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.</p>
+                                    <a class="btn btn-border-dark" href="{{env('APP_URL')}}/catalog">Beli Sekarang</a>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6" style="padding-top: 100px;">
                                 <div class="hero-slide-thumb">
-                                    <img src="assets/images/{{$hero['image']}}" width="841" height="832" alt="Image">
+                                    <img src="assets/images/FPK202206212-removebg-preview.png" width="841" height="832" alt="Image">
                                 </div>
                             </div>
                         </div>
@@ -34,7 +34,7 @@
                             height="955" alt="Image"></div> -->
                     <div class="hero-slide-social-shape"></div>
                 </div>
-                @endforeach
+                
                 <!-- <div class="swiper-slide hero-slide-item">
                     <div class="container">
                         <div class="row align-items-center position-relative">

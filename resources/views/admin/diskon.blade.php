@@ -160,6 +160,7 @@ function rupiah($angka){
                                                     <label for="exampleInputEmail1">Harga lama</label>
                                                     <input type="number" class="form-control" name="diskon"
                                                         value="<?=$products->diskon?>" required>
+                                                        <span>masukan 0 jika ingin menghapus</span>
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="inputStatus">Kategori</label>

@@ -10,9 +10,9 @@
                     <div class="page-header-content">
                     <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo.png"
                                             width="200" height="132" alt="Image"></div>
-                        <h2 class="page-header-title">{{$home->about['hero_judul']}}</h2>
-                        <h4 class="page-header-sub-title">{{$home->about['hero_moto']}}</h4>
-                        <p class="page-header-desc">{{$home->about['hero_deskripsi']}}</p>
+                        <h2 class="page-header-title">Clean Fresh</h2>
+                        <h4 class="page-header-sub-title">Best Cosmetics Provider</h4>
+                        <p class="page-header-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis</p>
                     </div>
                 </div>
                 <div class="col-md-5 col-lg-5 col-xl-7">
@@ -105,8 +105,8 @@
                 <img src="assets/images/photos/about2.webp" alt="Image">
             </div>
             <div class="about-content">
-                <h2 class="title">{{$home->about['judul']}}</h2>
-                <p class="desc">{{$home->about['deskripsi']}}</p>
+                <h2 class="title">Best Cosmetics Provider</h2>
+                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis</p>
             </div>
         </div>
     </section>
