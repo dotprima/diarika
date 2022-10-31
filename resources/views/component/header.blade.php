@@ -69,7 +69,7 @@
             <div class="col-7 col-lg-3 col-xl-4">
                 <div class="header-action justify-content-end">
                    
-
+<!-- 
                     <button class="header-action-btn" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#AsideOffcanvasCart" aria-controls="AsideOffcanvasCart">
                         <span class="icon">
@@ -85,7 +85,7 @@
                                 </defs>
                             </svg>
                         </span>
-                    </button>
+                    </button> -->
 
                     @if (Route::has('login'))
                     <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">

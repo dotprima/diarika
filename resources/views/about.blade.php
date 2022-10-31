@@ -8,11 +8,12 @@
             <div class="row align-items-center">
                 <div class="col-md-7 col-lg-7 col-xl-5">
                     <div class="page-header-content">
-                    <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo.png"
-                                            width="200" height="132" alt="Image"></div>
-                        <h2 class="page-header-title">Clean Fresh</h2>
-                        <h4 class="page-header-sub-title">Best Cosmetics Provider</h4>
-                        <p class="page-header-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis</p>
+                        <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo.png" width="200"
+                                height="132" alt="Image"></div>
+                        <h2 class="page-header-title"></h2>
+                        <h4 class="page-header-sub-title"></h4>
+                        <p class="page-header-desc">Glow up your skin. Find your truly beauty. (Temukan cantikmu yang
+                            sesungguhnya).</p>
                     </div>
                 </div>
                 <div class="col-md-5 col-lg-5 col-xl-7">
@@ -70,30 +71,9 @@
     <!--== Start Brand Logo Area Wrapper ==-->
     <div class="section-space">
         <div class="container">
-            <div class="swiper brand-logo-slider-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide brand-logo-item">
-                        <!--== Start Brand Logo Item ==-->
-                        <img src="assets/images/brand-logo/1.webp" width="155" height="110" alt="Image-HasTech">
-                        <!--== End Brand Logo Item ==-->
-                    </div>
-                    <div class="swiper-slide brand-logo-item">
-                        <!--== Start Brand Logo Item ==-->
-                        <img src="assets/images/brand-logo/2.webp" width="241" height="110" alt="Image-HasTech">
-                        <!--== End Brand Logo Item ==-->
-                    </div>
-                    <div class="swiper-slide brand-logo-item">
-                        <!--== Start Brand Logo Item ==-->
-                        <img src="assets/images/brand-logo/3.webp" width="147" height="110" alt="Image-HasTech">
-                        <!--== End Brand Logo Item ==-->
-                    </div>
-                    <div class="swiper-slide brand-logo-item">
-                        <!--== Start Brand Logo Item ==-->
-                        <img src="assets/images/brand-logo/4.webp" width="196" height="110" alt="Image-HasTech">
-                        <!--== End Brand Logo Item ==-->
-                    </div>
-                </div>
-            </div>
+        <a href="http://127.0.0.1:8000/catalog" class="product-banner-item">
+                <img src="assets/images/shop/banner/banner.png" width="1170" height="240" alt="Image-HasTech">
+            </a>
         </div>
     </div>
     <!--== End Brand Logo Area Wrapper ==-->
@@ -101,13 +81,23 @@
     <!--== Start About Area Wrapper ==-->
     <section class="section-space pt-0 mb-n1">
         <div class="container">
-            <div class="about-thumb">
+            <!-- <div class="about-thumb">
                 <img src="assets/images/photos/about2.webp" alt="Image">
-            </div>
+            </div> -->
             <div class="about-content">
-                <h2 class="title">Best Cosmetics Provider</h2>
-                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis</p>
+                <h2 class="title">Tentang Diarika</h2>
+                <p class="desc">Diarika Beauty didirikan oleh Ibu Rika Nursanti S.E, pada tanggal 18 Desember 2018 di
+                    Jalan Raya Tanjungmulya No.384 Panumbangan Ciamis Jawa Barat.
+                    Bearawal dari tahun 2016 dimana owner memiliki beberapa permasalahan kulit yang tak
+                    kunjung sembuh. Beragam pengobatan dan jenis skincare telah dicoba namun tidak
+                    menunjukkan perubahan yang signifikan. Hingga akhirnya dengan dibantu dokter dan
+                    formulator ditemukanlah skincare yang sesuai dan dapat mengatasi permasalahan kulit
+                    owner pada saat itu. Berdasarkan pencapaian tersebut Ibu Rika Nursanti S.E berinisiatif
+                    untuk dapat membantu mengatasi permasalahan kulit serupa yang banyak dialami
+                    orang-orang pada saat ini. Akhir tahun 2018 owner mendirikan perusahaan bernama CV
+                    Diarika Beauty, yang dibantu dan diawasi dokter serta formulator sampai saat ini.</p>
             </div>
+
         </div>
     </section>
     <!--== End About Area Wrapper ==-->
@@ -116,35 +106,15 @@
     <div class="feature-area section-space">
         <div class="container">
             <div class="row mb-n9">
-                <div class="col-md-6 col-lg-4 mb-8">
-                    <!--== Start Feature Item ==-->
-                    <div class="feature-item">
-                        <h5 class="title"><img class="icon" src="assets/images/icons/feature1.webp" width="60"
-                                height="60" alt="Icon"> Support Team</h5>
-                        <p class="desc">Lorem ipsum dolor amet, consectetur adipiscing. Ac tortor enim metus, turpis.
-                        </p>
-                    </div>
-                    <!--== End Feature Item ==-->
-                </div>
-                <div class="col-md-6 col-lg-4 mb-8">
-                    <!--== Start Feature Item ==-->
-                    <div class="feature-item">
-                        <h5 class="title"><img class="icon" src="assets/images/icons/feature2.webp" width="60"
-                                height="60" alt="Icon"> Certification</h5>
-                        <p class="desc">Lorem ipsum dolor amet, consectetur adipiscing. Ac tortor enim metus, turpis.
-                        </p>
-                    </div>
-                    <!--== End Feature Item ==-->
-                </div>
-                <div class="col-md-6 col-lg-4 mb-8">
-                    <!--== Start Feature Item ==-->
-                    <div class="feature-item">
-                        <h5 class="title"><img class="icon" src="assets/images/icons/feature3.webp" width="60"
-                                height="60" alt="Icon"> Natural Products</h5>
-                        <p class="desc">Lorem ipsum dolor amet, consectetur adipiscing. Ac tortor enim metus, turpis.
-                        </p>
-                    </div>
-                    <!--== End Feature Item ==-->
+                <div class="about-content">
+                    <h2 class="title">Arti dan symbol Merk Diarika Beauty</h2>
+                    <p class="desc">Nama Diarika merupakan gabungan nama yang diambil dari nama owner CV Diarika
+                        Beauty sendiri yaitu ibu Rika Nursanti, S.E. dan user name facebook beliau. Beauty
+                        memiliki arti kecantik atau keindahan, sebagaimana tujuan didirikannya CV Diarika
+                        Beauty yakni untuk mempercantik dan memperindah kulit. Kupu-kupu memiliki filosofi
+                        perjuangan dan kerja keras, keindahan dan pencapaian yang diraih CV Diarika Beauty
+                        sampai saat ini merupakan buah perjuangan dan kerja keras yang telah ditempuh selama
+                        bertahun-tahun dan senantiasa berproses.</p>
                 </div>
             </div>
         </div>

@@ -11,8 +11,8 @@
                 <div class="offset-lg-6 col-lg-6">
                     <div class="section-title position-relative">
                         <h2 class="title">Get in touch</h2>
-                        <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing aliquam, purus sit
-                            amet luctus venenatis</p>
+                        <!-- <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing aliquam, purus sit
+                            amet luctus venenatis</p> -->
                         <div class="line-left-style mt-4 mb-1"></div>
                     </div>
                     <!--== Start Contact Form ==-->

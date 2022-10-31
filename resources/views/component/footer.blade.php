@@ -9,8 +9,7 @@
                             <a class="widget-logo" href="{{env('APP_URL')}}/">
                                 <img src="{{env('APP_URL')}}/assets/images/logo.PNG" width="95" height="68" alt="Logo">
                             </a>
-                            <p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been.</p>
+                            <p class="desc">Glow up your skin. Find your truly beauty</p>
                         </div>
                     </div>
                 </div>
@@ -41,8 +40,7 @@
     <div class="footer-bottom">
         <div class="container pt-0 pb-0">
             <div class="footer-bottom-content">
-                <p class="copyright">© 2022 Diarika. Made with <i class="fa fa-heart"></i> by <a target="_blank"
-                        href="https://dotprima.com">Prima.Js.</a></p>
+                <p class="copyright">© 2022 Diarika Beauty<i class="fa fa-heart"></i></p>
             </div>
         </div>
     </div>
