@@ -78,22 +78,6 @@
     </div>
     <!--== Wrapper End ==-->
 
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-    var Tawk_API = Tawk_API || {},
-        Tawk_LoadStart = new Date();
-    (function() {
-        var s1 = document.createElement("script"),
-            s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = 'https://embed.tawk.to/635facc3b0d6371309cc71ad/1ggmrln41';
-        s1.charset = 'UTF-8';
-        s1.setAttribute('crossorigin', '*');
-        s0.parentNode.insertBefore(s1, s0);
-    })();
-    </script>
-    <!--End of Tawk.to Script-->
-
     <!-- JS Vendor, Plugins & Activation Script Files -->
 
     <script src="{{env('APP_URL')}}/assets/js/vendor/modernizr-3.11.7.min.js"></script>
@@ -111,7 +95,7 @@
     <script src="{{env('APP_URL')}}/assets/js/main.js"></script>
     @livewireScripts
     @yield('js')
-
+    {{ \TawkTo::widgetCode() }}
 </body>
 
 
