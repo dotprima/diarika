@@ -18,7 +18,7 @@
                                     <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo.png"
                                             width="327" height="132" alt="Image"></div>
                                     <h2 class="hero-slide-title" style="padding-top: 50px;">Beauty & Fresh</h2>
-                                    <p class="hero-slide-desc">Glow up your skin & Find your truly beauty</p>
+                                    <p class="hero-slide-desc">Glow up your skin & find your truly beauty</p>
                                     <a class="btn btn-border-dark" href="{{env('APP_URL')}}/catalog">Beli Sekarang</a>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@
                                     <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo.png"
                                             width="327" height="132" alt="Image"></div>
                                     <h2 class="hero-slide-title" style="padding-top: 50px;"> Beauty & Fresh</h2>
-                                    <p class="hero-slide-desc">Glow up your skin & Find your truly beauty</p>
+                                    <p class="hero-slide-desc">Glow up your skin & find your truly beauty</p>
                                     <a class="btn btn-border-dark" href="{{env('APP_URL')}}/catalog">Beli Sekarang</a>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@
                                     <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo.png"
                                             width="327" height="132" alt="Image"></div>
                                     <h6 class="hero-slide-title" style="padding-top: 50px;">Beauty & Fresh</h6>
-                                    <p class="hero-slide-desc">Glow up your skin & Find your truly beauty</p>
+                                    <p class="hero-slide-desc">Glow up your skin & find your truly beauty</p>
                                     <a class="btn btn-border-dark" href="{{env('APP_URL')}}/catalog">Beli Sekarang</a>
                                 </div>
                             </div>
