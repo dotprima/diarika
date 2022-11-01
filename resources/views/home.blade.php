@@ -40,7 +40,7 @@
                         <div class="row align-items-center position-relative">
                             <div class="col-12 col-md-6">
                                 <div class="hero-slide-content">
-                                    <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo.png"
+                                    <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo2.png"
                                             width="327" height="132" alt="Image"></div>
                                     <h2 class="hero-slide-title" style="padding-top: 50px;"> Beauty & Fresh</h2>
                                     <p class="hero-slide-desc">Glow up your skin & find your truly beauty</p>

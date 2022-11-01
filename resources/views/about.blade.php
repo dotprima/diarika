@@ -8,7 +8,7 @@
             <div class="row align-items-center">
                 <div class="col-md-7 col-lg-7 col-xl-5">
                     <div class="page-header-content">
-                        <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo.png" width="200"
+                        <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo2.png" width="200"
                                 height="132" alt="Image"></div>
                         <h2 class="page-header-title"></h2>
                         <h4 class="page-header-sub-title"></h4>
