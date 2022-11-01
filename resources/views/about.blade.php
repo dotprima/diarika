@@ -12,8 +12,7 @@
                                 height="132" alt="Image"></div>
                         <h2 class="page-header-title"></h2>
                         <h4 class="page-header-sub-title"></h4>
-                        <p class="page-header-desc">Glow up your skin. Find your truly beauty. (Temukan cantikmu yang
-                            sesungguhnya).</p>
+                        <p class="page-header-desc">Glow up your skin. Find your truly beauty</p>
                     </div>
                 </div>
                 <div class="col-md-5 col-lg-5 col-xl-7">

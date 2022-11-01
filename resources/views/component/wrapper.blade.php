@@ -95,7 +95,7 @@
     <script src="{{env('APP_URL')}}/assets/js/main.js"></script>
     @livewireScripts
     @yield('js')
-    <!-- {{ \TawkTo::widgetCode() }} -->
+    {{ \TawkTo::widgetCode() }}
 </body>
 
 
