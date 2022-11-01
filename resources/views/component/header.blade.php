@@ -12,6 +12,7 @@
                 <div class="header-navigation ps-7">
                     <ul class="main-nav justify-content-start">
                         <li><a href="/">Home</a></li>
+                        <li><a href="/catalog">Product</a></li>
                         <li><a href="/about">about</a></li>
                         <!-- <li class="has-submenu position-static"><a href="product.html">shop</a>
                             <ul class="submenu-nav-mega">
@@ -62,7 +63,7 @@
                             </ul>
                         </li> -->
                         <li><a href="/contact">Contact</a></li>
-                        <li><a href="/catalog">Product</a></li>
+                        
                     </ul>
                 </div>
             </div>

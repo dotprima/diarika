@@ -23,6 +23,8 @@
                             </li>
                             <li><a href="https://shopee.co.id/diarika_beauty_official">Shopee <img src="/icon/shopee.png" alt="Girl in a jacket" width="30px"></a>
                             </li>
+                            <li><a href="https://www.lazada.co.id/shop/diarika-beauty-office">Lazada <img src="/icon/lazada.png" alt="Girl in a jacket" width="30px"></a>
+                            </li>
                             <li><a href="https://www.instagram.com/diarika_beauty_official/">Instagram<img src="/icon/instagram.png" alt="Girl in a jacket" width="30px"></a>
                             </li>
                         </ul>

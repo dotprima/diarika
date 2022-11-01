@@ -30,10 +30,63 @@
                         </div>
 
                     </div>
+                    
                     <!-- <div class="hero-slide-text-shape"><img src="assets/images/slider/text1.webp" width="70"
                             height="955" alt="Image"></div> -->
                     <div class="hero-slide-social-shape"></div>
                 </div>
+                <div class="swiper-slide hero-slide-item">
+                    <div class="container">
+                        <div class="row align-items-center position-relative">
+                            <div class="col-12 col-md-6">
+                                <div class="hero-slide-content">
+                                    <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo.png"
+                                            width="327" height="132" alt="Image"></div>
+                                    <h2 class="hero-slide-title" style="padding-top: 50px;">Clean Fresh</h2>
+                                    <p class="hero-slide-desc">Glow up your skin. Find your truly beauty</p>
+                                    <a class="btn btn-border-dark" href="{{env('APP_URL')}}/catalog">Beli Sekarang</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6" style="padding-top: 100px;">
+                                <div class="hero-slide-thumb">
+                                    <img src="assets/images/FPK202206213-removebg-preview.png" width="841" height="832" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <!-- <div class="hero-slide-text-shape"><img src="assets/images/slider/text1.webp" width="70"
+                            height="955" alt="Image"></div> -->
+                    <div class="hero-slide-social-shape"></div>
+                </div>
+                <div class="swiper-slide hero-slide-item">
+                    <div class="container">
+                        <div class="row align-items-center position-relative">
+                            <div class="col-12 col-md-6">
+                                <div class="hero-slide-content">
+                                    <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo.png"
+                                            width="327" height="132" alt="Image"></div>
+                                    <h2 class="hero-slide-title" style="padding-top: 50px;">Clean Fresh</h2>
+                                    <p class="hero-slide-desc">Glow up your skin. Find your truly beauty</p>
+                                    <a class="btn btn-border-dark" href="{{env('APP_URL')}}/catalog">Beli Sekarang</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6" style="padding-top: 100px;">
+                                <div class="hero-slide-thumb">
+                                    <img src="assets/images/FPK202206214-removebg-preview.png" width="841" height="832" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <!-- <div class="hero-slide-text-shape"><img src="assets/images/slider/text1.webp" width="70"
+                            height="955" alt="Image"></div> -->
+                    <div class="hero-slide-social-shape"></div>
+                </div>
+
+                
                 
                 <!-- <div class="swiper-slide hero-slide-item">
                     <div class="container">
@@ -93,16 +146,19 @@
         </div>
         <div class="hero-slide-social-media">
             <a href="https://shopee.co.id/diarika_beauty_official" target="_blank" rel="noopener">
-                <img src="/icon/shopee.png" alt="Girl in a jacket">
+                <img src="/icon/shopee.png" alt="Diarika Beauty">
             </a>
             <a href="https://www.instagram.com/diarika_beauty_official/" target="_blank" rel="noopener">
-                <img src="/icon/instagram.png" alt="Girl in a jacket">
+                <img src="/icon/instagram.png" alt="Diarika Beauty">
+            </a>
+            <a href="https://www.lazada.co.id/shop/diarika-beauty-office" target="_blank" rel="noopener">
+                <img src="/icon/lazada.png" alt="Diarika Beauty" width="25px">
             </a>
             <a href="https://wa.me/6281395121992" target="_blank" rel="noopener">
-                <img src="/icon/whatsapp.png" alt="Girl in a jacket" width="20px">
+                <img src="/icon/whatsapp.png" alt="Diarika Beauty" width="20px">
             </a>
             <a href="https://wa.me/6281395112011" target="_blank" rel="noopener">
-                <img src="/icon/whatsapp.png" alt="Girl in a jacket" width="20px">
+                <img src="/icon/whatsapp.png" alt="Diarika Beauty" width="20px">
             </a>
         </div>
     </section>
@@ -276,4 +332,7 @@
 
 @section('css')
 <meta property="og:image" content="{{env('APP_URL')}}/assets/images/tm.png" />
+<meta property="og:site_name" content="Diarika Beauty" />
+<title>Diarika Beauty - Home</title>
+<meta property="og:title" content="Diarika Beauty" />
 @endsection

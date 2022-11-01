@@ -6,12 +6,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Diarika</title>
+    
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="Diarika">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords"
-        content="bootstrap, ecommerce, ecommerce html, beauty, cosmetic shop, beauty products, cosmetic, beauty shop, cosmetic store, shop, beauty store, spa, cosmetic, cosmetics, beauty salon" />
+        content="Diarika Beauty Glow up your skin. Find your truly beauty" />
     <meta name="author" content="codecarnival" />
 
     <!-- Favicon -->
@@ -28,11 +28,11 @@
     <link rel="canonical" href="{{env('APP_URL')}}" />
     <meta property="og:locale" content="id_ID" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Diarika Kosmetik" />
+   
     <meta property="og:description"
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis" />
+        content="Diarika Beauty - Glow up your skin. Find your truly beauty" />
     <meta property="og:url" content="{{env('APP_URL')}}" />
-    <meta property="og:site_name" content="Diarika Kosmetik" />
+ 
     <meta property="article:modified_time" content="2022-08-18T01:56:38+00:00" />
 
     <meta name="twitter:card" content="summary_large_image" />
@@ -95,7 +95,7 @@
     <script src="{{env('APP_URL')}}/assets/js/main.js"></script>
     @livewireScripts
     @yield('js')
-    {{ \TawkTo::widgetCode() }}
+    <!-- {{ \TawkTo::widgetCode() }} -->
 </body>
 
 
