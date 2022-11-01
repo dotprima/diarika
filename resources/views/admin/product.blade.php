@@ -127,24 +127,24 @@ function rupiah($angka){
                                     </i>
                                     View
                                 </a>
-                                <a class="btn btn-info btn-sm" href="product/edit/<?=$products->_id?>">
+                                <a class="btn btn-info btn-sm" href="product/edit/<?=$products->id?>">
                                     <i class="fas fa-pencil-alt">
                                     </i>
                                     Edit
                                 </a>
                                 <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
-                                    data-target="#modal-default-<?=$products->_id?>">
+                                    data-target="#modal-default-<?=$products->id?>">
                                     Delete
                                 </button>
                             </td>
                         </tr>
-                        <div class="modal fade" id="modal-default-<?=$products->_id?>">
+                        <div class="modal fade" id="modal-default-<?=$products->id?>">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <form method="POST">
                                         @csrf
                                         @method('delete')
-                                        <input type="hidden" name="_id" value="<?=$products->_id?>">
+                                        <input type="hidden" name="id" value="<?=$products->id?>">
                                         <div class="modal-header">
                                             <h4 class="modal-title">Hapus <?=$products->judul?></h4>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">

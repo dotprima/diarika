@@ -35,7 +35,7 @@ class Admin extends Controller
 
     public function storediskon(Request $request)
     {
-        $product = Product::find($request->_id);
+        $product = Product::find($request->id);
 
         if($request->diskon==0){
             $product->diskon = null;
@@ -57,7 +57,7 @@ class Admin extends Controller
 
     public function cataloginfo($id)
     {
-        $product = Product::where('_id', $id)->first();
+        $product = Product::where('id', $id)->first();
         return view('admin.addcataloginfo',[
             'product' => $product,
             'active' => 'editcatalog'
@@ -125,13 +125,13 @@ class Admin extends Controller
 
     public function editcatalog(Request $request)
     {
-        $product = Product::find($request->_id);
+        $product = Product::find($request->id);
  
         $product->judul = $request->judul;
         $product->kategori = $request->kategori;
 
         $this->validate($request, [
-            'url' => 'required|unique:product'.$request->_id,
+            'url' => 'required|unique:product,url,'.$product->id,
         ]);
 
         if($request->image!==NULL){
@@ -172,7 +172,7 @@ class Admin extends Controller
     public function detelecatalog(Request $request)
     {
 
-        $product = Product::find($request->_id);
+        $product = Product::find($request->id);
         File::delete('product/'.$product->image);
         if( $product->delete()){
             return redirect()->back()->with('success', 'Data berhasil di hapus');

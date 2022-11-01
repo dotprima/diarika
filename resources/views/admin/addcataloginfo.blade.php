@@ -5,7 +5,7 @@
     <form method="POST" action="/dashboard/add-catalog" enctype="multipart/form-data">
         @csrf
         @method('put')
-        <input type="hidden" name="_id" value="<?=$product->_id?>">
+        <input type="hidden" name="id" value="<?=$product->id?>">
         @if (Session::has('success'))
         <div class="alert alert-success">
             <ul>

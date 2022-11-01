@@ -131,7 +131,7 @@ function rupiah($angka){
                             </td>
                             <td class="project-actions text-center">
                                 <button type="button" class="btn btn-primary btn-sm" data-toggle="modal"
-                                    data-target="#modal-default-<?=$products->_id?>">
+                                    data-target="#modal-default-<?=$products->id?>">
                                     Status
                                 </button>
                                 <a class="btn btn-primary btn-sm" href="/catalog/<?=$products->url?>">
@@ -141,12 +141,12 @@ function rupiah($angka){
                                 </a>
                             </td>
                         </tr>
-                        <div class="modal fade" id="modal-default-<?=$products->_id?>">
+                        <div class="modal fade" id="modal-default-<?=$products->id?>">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <form method="POST">
                                         @csrf
-                                        <input type="hidden" name="_id" value="<?=$products->_id?>">
+                                        <input type="hidden" name="id" value="<?=$products->id?>">
                                         <div class="modal-header">
                                             <h4 class="modal-title">Edit Status <?=$products->judul?></h4>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
