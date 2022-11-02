@@ -24,7 +24,7 @@ class Home extends Controller
         $productInfo = Product::where('id', $_GET['id'])->first();
         
 
-        $url = "https://wa.me/6281395121992?text=".env('APP_URL')."catalog/".$productInfo->url;
+        $url = "https://wa.me/6281395121992?text=".env('APP_URL').'/catalog/'.$productInfo->url;
         return redirect($url);
 
         
