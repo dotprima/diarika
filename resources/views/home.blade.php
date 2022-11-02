@@ -261,7 +261,7 @@
 
     <!--== Start Product Quick View Modal ==-->
     @foreach ($product as $products)
-    <aside class="product-cart-view-modal modal fade" id="action-QuickViewModal{{$products->_id}}" tabindex="-1"
+    <aside class="product-cart-view-modal modal fade" id="action-QuickViewModal{{$products->id}}" tabindex="-1"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -307,7 +307,7 @@
                                             <h5 class="price">{{rupiah($products->harga)}}</h5>
                                             <div class="product-details-cart-wishlist">
                                                
-                                                <a href="/whatsapp?id={{$products->_id}}" target="_blank" rel="nofollow"
+                                                <a href="/whatsapp?id={{$products->id}}" target="_blank" rel="nofollow"
                                                     class="btn">
                                                     <span>Beli Sekarang</span>
                                                 </a>

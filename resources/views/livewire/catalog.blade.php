@@ -18,7 +18,7 @@ function rupiah($angka){
                     </div>
                 </div>
                 <div class="col-md-7">
-                    <h5 class="showing-pagination-results mt-5 mt-md-9 text-center text-md-end">Showing 09 Results</h5>
+                    <h5 class="showing-pagination-results mt-5 mt-md-9 text-center text-md-end">Showing {{$count}} Results</h5>
                 </div>
             </div>
         </div>
@@ -138,10 +138,10 @@ function rupiah($angka){
                             @endif
                             <div class="product-action">
                                 <button type="button" class="product-action-btn action-btn-quick-view"
-                                    data-bs-toggle="modal" data-bs-target="#action-QuickViewModal{{$products->_id}}">
+                                    data-bs-toggle="modal" data-bs-target="#action-QuickViewModal{{$products->id}}">
                                     <i class="fa fa-expand"></i>
                                 </button>
-                                 <a href="/whatsapp?id={{$products->_id}}" target="_blank" rel="nofollow" class="product-action-btn action-btn-cart">
+                                 <a href="/whatsapp?id={{$products->id}}" target="_blank" rel="nofollow" class="product-action-btn action-btn-cart">
                                     <span>Beli Sekarang</span>
                                 </a>
                                 <button type="button" class="product-action-btn action-btn-wishlist"
@@ -173,14 +173,14 @@ function rupiah($angka){
                         </div>
                         <div class="product-action-bottom">
                             <button type="button" class="product-action-btn action-btn-quick-view"
-                                data-bs-toggle="modal" data-bs-target="#action-QuickViewModal{{$products->_id}}">
+                                data-bs-toggle="modal" data-bs-target="#action-QuickViewModal{{$products->id}}">
                                 <i class="fa fa-expand"></i>
                             </button>
                             <button type="button" class="product-action-btn action-btn-wishlist" data-bs-toggle="modal"
                                 data-bs-target="#action-WishlistModal">
                                 <i class="fa fa-heart-o"></i>
                             </button>
-                            <a href="/whatsapp?id={{$products->_id}}" target="_blank" rel="nofollow"
+                            <a href="/whatsapp?id={{$products->id}}" target="_blank" rel="nofollow"
                                 class="product-action-btn action-btn-cart">
                                 <span>Beli Sekarang</span>
                             </a>
@@ -211,7 +211,7 @@ function rupiah($angka){
 
 
     @foreach ($product as $products)
-    <aside class="product-cart-view-modal modal fade" id="action-QuickViewModal{{$products->_id}}" tabindex="-1"
+    <aside class="product-cart-view-modal modal fade" id="action-QuickViewModal{{$products->id}}" tabindex="-1"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -256,7 +256,7 @@ function rupiah($angka){
                                         <div class="product-details-action">
                                             <h5>{{rupiah($products->harga)}}</h5>
                                             <div class="product-details-cart-wishlist">
-                                            <a href="/whatsapp?id={{$products->_id}}" target="_blank" rel="nofollow" class="btn">
+                                            <a href="/whatsapp?id={{$products->id}}" target="_blank" rel="nofollow" class="btn">
                                     <span>Beli Sekarang</span>
                                 </a>
                                             </div>

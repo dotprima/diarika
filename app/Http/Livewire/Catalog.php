@@ -15,7 +15,7 @@ class Catalog extends Component
 
     public function render()
     {
-        
+        $count = Product::count();
         if($this->search==null){
             if($this->sortField){
                 $product = Product::where('kategori',$this->sortField )->paginate(5);
@@ -27,7 +27,8 @@ class Catalog extends Component
         }
 
         return view('livewire.catalog',[
-            'product' => $product
+            'product' => $product,
+            'count' => $count
         ]);
     }
 
