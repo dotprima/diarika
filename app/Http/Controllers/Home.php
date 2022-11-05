@@ -42,7 +42,7 @@ class Home extends Controller
             $date=date_create($products->updated_at);
             $sitemap->add(Url::create("/catalog/{$products->url}")->setLastModificationDate($date));
         }
-        $sitemap->writeToFile(public_path('/sitemap.xml'));
+        $sitemap->writeToFile('sitemap.xml');
     
     }
 
