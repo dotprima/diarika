@@ -50,18 +50,18 @@ function rupiah($angka){
             <div class="row g-3 g-sm-6">
                 <div class="col-6 col-lg-4 col-lg-2 col-xl-2">
                     <!--== Start Product Category Item ==-->
-                    <a wire:click.prevent="sortBy('1')" role="button" href="#" class="product-category-item"
+                    <a wire:click.prevent="sortBy('')" role="button" href="#" class="product-category-item"
                         style="background-color:#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/1.webp" width="80" height="80"
                             alt="Image-HasTech">
-                        <h3 class="title">Hare care</h3>
+                        <h3 class="title">All</h3>
                         <span class="flag-new">new</span>
                     </a>
                     <!--== End Product Category Item ==-->
                 </div>
                 <div class="col-6 col-lg-4 col-lg-2 col-xl-2">
                     <!--== Start Product Category Item ==-->
-                    <a wire:click.prevent="sortBy('2')" role="button" href="#" class="product-category-item"
+                    <a wire:click.prevent="sortBy('Skin Care')" role="button" href="#" class="product-category-item"
                         style="background-color:#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/2.webp" width="80" height="80"
                             alt="Image-HasTech">
@@ -71,17 +71,17 @@ function rupiah($angka){
                 </div>
                 <div class="col-6 col-lg-4 col-lg-2 col-xl-2 mt-lg-0 mt-sm-6 mt-4">
                     <!--== Start Product Category Item ==-->
-                    <a wire:click.prevent="sortBy('1')" role="button" href="#" class="product-category-item"
+                    <a wire:click.prevent="sortBy('Treatment')" role="button" href="#" class="product-category-item"
                         style="background-color:#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/3.webp" width="80" height="80"
                             alt="Image-HasTech">
-                        <h3 class="title">Lip stick</h3>
+                        <h3 class="title">Treatment</h3>
                     </a>
                     <!--== End Product Category Item ==-->
                 </div>
                 <div class="col-6 col-lg-4 col-lg-2 col-xl-2 mt-xl-0 mt-sm-6 mt-4">
                     <!--== Start Product Category Item ==-->
-                    <a wire:click.prevent="sortBy('1')" role="button" href="#" class="product-category-item"
+                    <a wire:click.prevent="sortBy('Skin Care')" role="button" href="#" class="product-category-item"
                         style="background-color:#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/4.webp" width="80" height="80"
                             alt="Image-HasTech">
@@ -92,7 +92,7 @@ function rupiah($angka){
                 </div>
                 <div class="col-6 col-lg-4 col-lg-2 col-xl-2 mt-xl-0 mt-sm-6 mt-4">
                     <!--== Start Product Category Item ==-->
-                    <a wire:click.prevent="sortBy('1')" role="button" href="#" class="product-category-item"
+                    <a wire:click.prevent="sortBy('Skin Care')" role="button" href="#" class="product-category-item"
                         style="background-color:#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/5.webp" width="80" height="80"
                             alt="Image-HasTech">
@@ -102,7 +102,7 @@ function rupiah($angka){
                 </div>
                 <div class="col-6 col-lg-4 col-lg-2 col-xl-2 mt-xl-0 mt-sm-6 mt-4">
                     <!--== Start Product Category Item ==-->
-                    <a wire:click.prevent="sortBy('1')" role="button" href="#" class="product-category-item"
+                    <a wire:click.prevent="sortBy('Skin Care')" role="button" href="#" class="product-category-item"
                         style="background-color:#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/6.webp" width="80" height="80"
                             alt="Image-HasTech">
