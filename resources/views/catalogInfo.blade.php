@@ -185,8 +185,8 @@ function rupiah($angka){
                 <div class="col-12">
                     <div class="section-title">
                         <h2 class="title">Related Products</h2>
-                        <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
-                            amet luctus venenatis</p>
+                        <!-- <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
+                            amet luctus venenatis</p> -->
                     </div>
                 </div>
             </div>
