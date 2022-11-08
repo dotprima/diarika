@@ -32,15 +32,15 @@ class Home extends Controller
     public function sitemap()
     {
         $sitemap = Sitemap::create()
-        ->add(Url::create('/'))
-        ->add(Url::create('/catalog'))
-        ->add(Url::create('/about'))
-        ->add(Url::create('/contact'));
+        ->add(Url::create('/')->setPriority(1.0))
+        ->add(Url::create('/catalog')->setPriority(0.9))
+        ->add(Url::create('/about')->setPriority(0.8))
+        ->add(Url::create('/contact')->setPriority(0.7));
 
         $product = Product::all();
         foreach ($product as $products) {
             $date=date_create($products->updated_at);
-            $sitemap->add(Url::create("/catalog/{$products->url}")->setLastModificationDate($date));
+            $sitemap->add(Url::create("/catalog/{$products->url}")->setLastModificationDate($date)->setPriority(0.6));
         }
         $sitemap->writeToFile('sitemap.xml');
     
