@@ -79,37 +79,7 @@ function rupiah($angka){
                     </a>
                     <!--== End Product Category Item ==-->
                 </div>
-                <div class="col-6 col-lg-4 col-lg-2 col-xl-2 mt-xl-0 mt-sm-6 mt-4">
-                    <!--== Start Product Category Item ==-->
-                    <a wire:click.prevent="sortBy('Skin Care')" role="button" href="#" class="product-category-item"
-                        style="background-color:#F9F6EE">
-                        <img class="icon" src="assets/images/shop/category/4.webp" width="80" height="80"
-                            alt="Image-HasTech">
-                        <h3 class="title">Face skin</h3>
-                        <span data-bg-color="#835BF4" class="flag-new">sale</span>
-                    </a>
-                    <!--== End Product Category Item ==-->
-                </div>
-                <div class="col-6 col-lg-4 col-lg-2 col-xl-2 mt-xl-0 mt-sm-6 mt-4">
-                    <!--== Start Product Category Item ==-->
-                    <a wire:click.prevent="sortBy('Skin Care')" role="button" href="#" class="product-category-item"
-                        style="background-color:#F9F6EE">
-                        <img class="icon" src="assets/images/shop/category/5.webp" width="80" height="80"
-                            alt="Image-HasTech">
-                        <h3 class="title">Blusher</h3>
-                    </a>
-                    <!--== End Product Category Item ==-->
-                </div>
-                <div class="col-6 col-lg-4 col-lg-2 col-xl-2 mt-xl-0 mt-sm-6 mt-4">
-                    <!--== Start Product Category Item ==-->
-                    <a wire:click.prevent="sortBy('Skin Care')" role="button" href="#" class="product-category-item"
-                        style="background-color:#F9F6EE">
-                        <img class="icon" src="assets/images/shop/category/6.webp" width="80" height="80"
-                            alt="Image-HasTech">
-                        <h3 class="title">Natural</h3>
-                    </a>
-                    <!--== End Product Category Item ==-->
-                </div>
+                
             </div>
         </div>
     </section>
