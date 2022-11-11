@@ -9,7 +9,7 @@
                             <a class="widget-logo" href="{{env('APP_URL')}}/">
                                 <img src="{{env('APP_URL')}}/assets/images/logo.PNG" width="95" height="68" alt="Logo">
                             </a>
-                            <p class="desc">Glow up your skin. Find your truly beauty</p>
+                            <p class="desc">Glow up your skin & find your truly beauty</p>
                         </div>
                     </div>
                 </div>
