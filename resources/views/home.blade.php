@@ -167,7 +167,7 @@
     <!--== Start Product Category Area Wrapper ==-->
     <section class="section-space pb-0">
         <div class="container">
-            <div class="row g-3 g-sm-6">
+            <div class="row g-3 g-sm-6 justify-content-center">
                 <div class="col-6 col-lg-4 col-lg-2 col-xl-2">
                     <!--== Start Product Category Item ==-->
                     <a href="/catalog" class="product-category-item" data-bg-color="#F9F6EE">

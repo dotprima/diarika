@@ -47,7 +47,7 @@ function rupiah($angka){
     <!--== Start Product Category Area Wrapper ==-->
     <section class="section-space pb-0">
         <div class="container">
-            <div class="row g-3 g-sm-6">
+            <div class="row g-3 g-sm-6 justify-content-center">
                 <div class="col-6 col-lg-4 col-lg-2 col-xl-2">
                     <!--== Start Product Category Item ==-->
                     <a wire:click.prevent="sortBy('')" role="button" href="#" class="product-category-item"

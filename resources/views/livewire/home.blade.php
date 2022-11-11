@@ -98,7 +98,7 @@ function rupiah($angka){
                 </div>
                 @endforeach
                 <div class="product-action-bottom d-flex justify-content-center">
-                    <button type="button" class="btn btn-primary">Load More</button>
+                    <a href="/catalog" type="button" class="btn btn-primary">Load More</a>
                 </div>
             </div>
         </div>

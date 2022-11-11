@@ -173,6 +173,7 @@ function rupiah($angka){
 
                     </tbody>
                 </table>
+            {{ $product->links() }}
             </div>
             <!-- /.card-body -->
         </div>

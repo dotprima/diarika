@@ -9,7 +9,7 @@ class Admin extends Controller
 {
     public function index()
     {
-        $product = Product::all();
+        $product = Product::paginate(15);
         return view('admin.dashboard', [
             'product' => $product,
             'active' => 'home'
@@ -18,7 +18,7 @@ class Admin extends Controller
 
     public function product()
     {
-        $product = Product::all();
+        $product = Product::paginate(10);
         return view('admin.product', [
             'product' => $product,
             'active' => 'product'
