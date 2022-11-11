@@ -106,7 +106,7 @@
         <div class="container">
             <div class="row mb-n9">
                 <div class="about-content">
-                    <h2 class="title">Arti dan symbol Merk Diarika Beauty</h2>
+                    <h2 class="title">Arti dan Simbol Merk Diarika Beauty</h2>
                     <p class="desc">Nama Diarika merupakan gabungan nama yang diambil dari nama owner CV Diarika
                         Beauty sendiri yaitu ibu Rika Nursanti, S.E. dan user name facebook beliau. Beauty
                         memiliki arti kecantik atau keindahan, sebagaimana tujuan didirikannya CV Diarika
