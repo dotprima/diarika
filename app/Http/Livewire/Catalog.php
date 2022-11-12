@@ -18,12 +18,12 @@ class Catalog extends Component
         $count = Product::count();
         if($this->search==null){
             if($this->sortField){
-                $product = Product::where('kategori',$this->sortField )->paginate(5);
+                $product = Product::where('kategori',$this->sortField )->paginate(6);
             }else{
-                $product = Product::paginate(5);
+                $product = Product::paginate(6);
             }
         }else{
-            $product = Product::where('judul', 'like', '%'.$this->search.'%')->paginate(5);
+            $product = Product::where('judul', 'like', '%'.$this->search.'%')->paginate(6);
         }
 
         return view('livewire.catalog',[
