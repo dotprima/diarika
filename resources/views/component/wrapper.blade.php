@@ -73,7 +73,11 @@
 
     <!--== Wrapper Start ==-->
     <div class="wrapper">
-
+        <div id="myId" class="d-none">
+            <img src="/diarikabeautyheader1.png" alt="Diarika Beauty Official Website">
+            <img src="/diarikabeautyheader2.png" alt="Diarika Beauty Official Website">
+            <img src="/diarikabeautyheader3.png" alt="Diarika Beauty Official Website">
+        </div>
         <!--== Start Header Wrapper ==-->
         @include('component.header')
         <!--== End Header Wrapper ==-->
