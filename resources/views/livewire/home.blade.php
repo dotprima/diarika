@@ -38,7 +38,7 @@ function rupiah($angka){
                     <div class="product-item">
                         <div class="product-thumb">
                             <a class="d-block" href="{{env('APP_URL')}}/catalog/{{$products->url}}">
-                                <img src="product/{{$products->image}}" width="370" height="450" alt="Image-HasTech">
+                                <img src="product/{{$products->image}}" width="370" height="450" alt="Diarika Beauty Official Website">
                             </a>
                             @if(isset($products->status))
                             <span class="flag-new">{{$products->status}}</span>

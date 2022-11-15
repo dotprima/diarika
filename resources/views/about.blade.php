@@ -9,7 +9,7 @@
                 <div class="col-md-7 col-lg-7 col-xl-5">
                     <div class="page-header-content">
                         <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo2.png" width="200"
-                                height="132" alt="Image"></div>
+                                height="132" alt="Diarika Beauty Official Website"></div>
                         <h2 class="page-header-title"></h2>
                         <h4 class="page-header-sub-title"></h4>
                         <p class="page-header-desc">Glow up your skin & find your truly beauty</p>
@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-md-5 col-lg-5 col-xl-7">
                     <div class="page-header-thumb">
-                        <img src="assets/images/FPK202206214-removebg-preview.png" width="570" height="669" alt="Image">
+                        <img src="assets/images/FPK202206214-removebg-preview.png" width="570" height="669" alt="Diarika Beauty Official Website">
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@
                     <!--== Start Funfact Item ==-->
                     <div class="funfact-item">
                         <div class="icon">
-                            <img src="assets/images/icons/funfact1.webp" width="110" height="110" alt="Icon">
+                            <img src="assets/images/icons/funfact1.webp" width="110" height="110" alt="Diarika Beauty Official Website">
                         </div>
                         <h2 class="funfact-number">2000+</h2>
                         <h6 class="funfact-title">Pelanggan</h6>
@@ -44,7 +44,7 @@
                     <!--== Start Funfact Item ==-->
                     <div class="funfact-item">
                         <div class="icon">
-                            <img src="assets/images/icons/funfact2.webp" width="110" height="110" alt="Icon">
+                            <img src="assets/images/icons/funfact2.webp" width="110" height="110" alt="Diarika Beauty Official Website">
                         </div>
                         <h2 class="funfact-number">10.000 +</h2>
                         <h6 class="funfact-title">Terjual</h6>
@@ -55,7 +55,7 @@
                     <!--== Start Funfact Item ==-->
                     <div class="funfact-item">
                         <div class="icon">
-                            <img src="assets/images/icons/funfact3.webp" width="110" height="110" alt="Icon">
+                            <img src="assets/images/icons/funfact3.webp" width="110" height="110" alt="Diarika Beauty Official Website">
                         </div>
                         <h2 class="funfact-number">1.000 +</h2>
                         <h6 class="funfact-title">Feedback</h6>
@@ -81,7 +81,7 @@
     <section class="section-space pt-0 mb-n1">
         <div class="container">
             <!-- <div class="about-thumb">
-                <img src="assets/images/photos/about2.webp" alt="Image">
+                <img src="assets/images/photos/about2.webp" alt="Diarika Beauty Official Website">
             </div> -->
             <div class="about-content">
                 <h2 class="title">Tentang Diarika</h2>

@@ -4,7 +4,7 @@
             <div class="col-5 col-lg-2 col-xl-1">
                 <div class="header-logo">
                     <a href="/">
-                        <img class="logo-main" src="{{env('APP_URL')}}/assets/images/logo.PNG" width="95" height="68" alt="Logo" />
+                        <img class="logo-main" src="{{env('APP_URL')}}/assets/images/logo.PNG" width="95" height="68" alt="Diarika Beauty Official Website" />
                     </a>
                 </div>
             </div>

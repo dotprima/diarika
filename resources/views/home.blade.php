@@ -16,7 +16,7 @@
                             <div class="col-12 col-md-6">
                                 <div class="hero-slide-content">
                                     <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo2.png"
-                                            width="327" height="132" alt="Image"></div>
+                                            width="327" height="132" alt="Diarika Beauty Official Website"></div>
                                     <h2 class="hero-slide-title" style="padding-top: 50px;">Beauty & Fresh</h2>
                                     <p class="hero-slide-desc">Glow up your skin & find your truly beauty</p>
                                     <a class="btn btn-border-dark" href="{{env('APP_URL')}}/catalog">Beli Sekarang</a>
@@ -24,7 +24,7 @@
                             </div>
                             <div class="col-12 col-md-6" style="padding-top: 100px;">
                                 <div class="hero-slide-thumb">
-                                    <img src="assets/images/FPK202206212-removebg-preview.png" width="841" height="832" alt="Image">
+                                    <img src="assets/images/FPK202206212-removebg-preview.png" width="841" height="832" alt="Diarika Beauty Official Website">
                                 </div>
                             </div>
                         </div>
@@ -32,7 +32,7 @@
                     </div>
                     
                     <!-- <div class="hero-slide-text-shape"><img src="assets/images/slider/text1.webp" width="70"
-                            height="955" alt="Image"></div> -->
+                            height="955" alt="Diarika Beauty Official Website"></div> -->
                     <div class="hero-slide-social-shape"></div>
                 </div>
                 <div class="swiper-slide hero-slide-item">
@@ -41,7 +41,7 @@
                             <div class="col-12 col-md-6">
                                 <div class="hero-slide-content">
                                     <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo2.png"
-                                            width="327" height="132" alt="Image"></div>
+                                            width="327" height="132" alt="Diarika Beauty Official Website"></div>
                                     <h2 class="hero-slide-title" style="padding-top: 50px;"> Beauty & Fresh</h2>
                                     <p class="hero-slide-desc">Glow up your skin & find your truly beauty</p>
                                     <a class="btn btn-border-dark" href="{{env('APP_URL')}}/catalog">Beli Sekarang</a>
@@ -49,7 +49,7 @@
                             </div>
                             <div class="col-12 col-md-6" style="padding-top: 100px;">
                                 <div class="hero-slide-thumb">
-                                    <img src="assets/images/FPK202206213-removebg-preview.png" width="841" height="832" alt="Image">
+                                    <img src="assets/images/FPK202206213-removebg-preview.png" width="841" height="832" alt="Diarika Beauty Official Website">
                                 </div>
                             </div>
                         </div>
@@ -57,7 +57,7 @@
                     </div>
                     
                     <!-- <div class="hero-slide-text-shape"><img src="assets/images/slider/text1.webp" width="70"
-                            height="955" alt="Image"></div> -->
+                            height="955" alt="Diarika Beauty Official Website"></div> -->
                     <div class="hero-slide-social-shape"></div>
                 </div>
                 <div class="swiper-slide hero-slide-item">
@@ -66,7 +66,7 @@
                             <div class="col-12 col-md-6">
                                 <div class="hero-slide-content">
                                     <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo2.png"
-                                            width="327" height="132" alt="Image"></div>
+                                            width="327" height="132" alt="Diarika Beauty Official Website"></div>
                                     <h6 class="hero-slide-title" style="padding-top: 50px;">Beauty & Fresh</h6>
                                     <p class="hero-slide-desc">Glow up your skin & find your truly beauty</p>
                                     <a class="btn btn-border-dark" href="{{env('APP_URL')}}/catalog">Beli Sekarang</a>
@@ -74,7 +74,7 @@
                             </div>
                             <div class="col-12 col-md-6" style="padding-top: 100px;">
                                 <div class="hero-slide-thumb">
-                                    <img src="assets/images/FPK202206214-removebg-preview.png" width="841" height="832" alt="Image">
+                                    <img src="assets/images/FPK202206214-removebg-preview.png" width="841" height="832" alt="Diarika Beauty Official Website">
                                 </div>
                             </div>
                         </div>
@@ -82,7 +82,7 @@
                     </div>
                     
                     <!-- <div class="hero-slide-text-shape"><img src="assets/images/slider/text1.webp" width="70"
-                            height="955" alt="Image"></div> -->
+                            height="955" alt="Diarika Beauty Official Website"></div> -->
                     <div class="hero-slide-social-shape"></div>
                 </div>
 
@@ -121,7 +121,7 @@
                     <!--== Start Product Category Item ==-->
                     <a href="/catalog" class="product-category-item" data-bg-color="#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/1.webp" width="70" height="80"
-                            alt="Image-HasTech">
+                            alt="Diarika Beauty Official Website">
                         <h3 class="title">All</h3>
                         <span class="flag-new">new</span>
                     </a>
@@ -131,7 +131,7 @@
                     <!--== Start Product Category Item ==-->
                     <a href="/catalog" class="product-category-item" data-bg-color="#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/2.webp" width="80" height="80"
-                            alt="Image-HasTech">
+                            alt="Diarika Beauty Official Website">
                         <h3 class="title">Treatment</h3>
                     </a>
                     <!--== End Product Category Item ==-->
@@ -140,7 +140,7 @@
                     <!--== Start Product Category Item ==-->
                     <a href="/catalog" class="product-category-item" data-bg-color="#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/3.webp" width="80" height="80"
-                            alt="Image-HasTech">
+                            alt="Diarika Beauty Official Website">
                         <h3 class="title">Skin Care</h3>
                     </a>
                     <!--== End Product Category Item ==-->
@@ -198,7 +198,7 @@
                                     <!--== Start Product Thumbnail Area ==-->
                                     <div class="product-single-thumb">
                                         <img src="product/{{$products->image}}" width="544" height="560"
-                                            alt="Image-HasTech">
+                                            alt="Diarika Beauty Official Website">
                                     </div>
                                     <!--== End Product Thumbnail Area ==-->
                                 </div>

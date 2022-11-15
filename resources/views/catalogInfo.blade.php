@@ -37,7 +37,7 @@ function rupiah($angka){
                 <div class="col-lg-6">
                     <div class="product-details-thumb">
                         <img src="{{env('APP_URL')}}/product/{{$productInfo->image}}" width="570" height="693"
-                            alt="Image">
+                            alt="Diarika Beauty Official Website">
                         @if(isset($productInfo->status))
                         <span class="flag-new">{{$productInfo->status}}</span>
                         @endif
@@ -172,7 +172,7 @@ function rupiah($angka){
         <!--== Start Product Category Item ==-->
         <a href="{{env('APP_URL')}}/catalog" class="product-banner-item">
             <img src="{{env('APP_URL')}}/assets/images/shop/banner/banner.png" width="1170" height="240"
-                alt="Image-HasTech">
+                alt="Diarika Beauty Official Website">
         </a>
         <!--== End Product Category Item ==-->
     </div>
@@ -201,7 +201,7 @@ function rupiah($angka){
                                     <div class="product-thumb">
                                         <a class="d-block" href="{{env('APP_URL')}}/catalog/{{$products->url}}">
                                             <img src="{{env('APP_URL')}}/product/{{$products->image}}" width="370"
-                                                height="450" alt="Image-HasTech">
+                                                height="450" alt="Diarika Beauty Official Website">
                                         </a>
                                         @if(isset($products->status))
                                         <span class="flag-new">{{$products->status}}</span>
@@ -271,7 +271,7 @@ function rupiah($angka){
                                     <!--== Start Product Thumbnail Area ==-->
                                     <div class="product-single-thumb">
                                         <img src="{{env('APP_URL')}}/product/{{$products->image}}" width="544"
-                                            height="560" alt="Image-HasTech">
+                                            height="560" alt="Diarika Beauty Official Website">
                                     </div>
                                     <!--== End Product Thumbnail Area ==-->
                                 </div>

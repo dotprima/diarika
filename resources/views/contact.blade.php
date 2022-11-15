@@ -66,16 +66,16 @@
         <div class="container">
             <div class="contact-info">
                 <div class="contact-info-item">
-                    <img class="icon" src="icon/whatsapp.png" width="25" height="25" alt="Icon">
+                    <img class="icon" src="icon/whatsapp.png" width="25" height="25" alt="Diarika Beauty Official Website">
                     <a href="https://wa.me/6281395121992">+62 813-9512-1992</a>
                     <a href="https://wa.me/6281395112011">+62 813-9511-2011</a>
                 </div>
                 <div class="contact-info-item">
-                    <img class="icon" src="assets/images/icons/2.webp" width="30" height="30" alt="Icon">
+                    <img class="icon" src="assets/images/icons/2.webp" width="30" height="30" alt="Diarika Beauty Official Website">
                     <a href="mailto://diarikabeautyc@gmail.com">diarikabeautyc@gmail.com</a>
                 </div>
                 <div class="contact-info-item mb-0">
-                    <img class="icon" src="assets/images/icons/3.webp" width="30" height="30" alt="Icon">
+                    <img class="icon" src="assets/images/icons/3.webp" width="30" height="30" alt="Diarika Beauty Official Website">
                     <p>Tanjungmulya, Kec. Panumbangan, Kabupaten Ciamis, Jawa Barat 46263</p>
                 </div>
             </div>

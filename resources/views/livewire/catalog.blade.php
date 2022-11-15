@@ -53,7 +53,7 @@ function rupiah($angka){
                     <a wire:click.prevent="sortBy('')" role="button" href="#" class="product-category-item"
                         style="background-color:#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/1.webp" width="80" height="80"
-                            alt="Image-HasTech">
+                            alt="Diarika Beauty Image">
                         <h3 class="title">All</h3>
                         <span class="flag-new">new</span>
                     </a>
@@ -64,7 +64,7 @@ function rupiah($angka){
                     <a wire:click.prevent="sortBy('Skin Care')" role="button" href="#" class="product-category-item"
                         style="background-color:#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/2.webp" width="80" height="80"
-                            alt="Image-HasTech">
+                            alt="Diarika Beauty Image">
                         <h3 class="title">Skin care</h3>
                     </a>
                     <!--== End Product Category Item ==-->
@@ -74,7 +74,7 @@ function rupiah($angka){
                     <a wire:click.prevent="sortBy('Treatment')" role="button" href="#" class="product-category-item"
                         style="background-color:#F9F6EE">
                         <img class="icon" src="assets/images/shop/category/3.webp" width="80" height="80"
-                            alt="Image-HasTech">
+                            alt="Diarika Beauty Official Website">
                         <h3 class="title">Treatment</h3>
                     </a>
                     <!--== End Product Category Item ==-->
@@ -101,7 +101,7 @@ function rupiah($angka){
                     <div class="product-item">
                         <div class="product-thumb">
                             <a class="d-block" href="{{env('APP_URL')}}/catalog/{{$products->url}}">
-                                <img src="product/{{$products->image}}" width="370" height="450" alt="Image-HasTech">
+                                <img src="product/{{$products->image}}" width="370" height="450" alt="Diarika Beauty Image">
                             </a>
                             @if(isset($products->status))
                             <span class="flag-new">{{$products->status}}</span>
@@ -172,7 +172,7 @@ function rupiah($angka){
         <div class="container">
             <!--== Start Product Category Item ==-->
             <a href="{{env('APP_URL')}}/catalog" class="product-banner-item">
-                <img src="assets/images/shop/banner/banner.png" width="1170" height="240" alt="Image-HasTech">
+                <img src="assets/images/shop/banner/banner.png" width="1170" height="240" alt="Diarika Beauty Image">
             </a>
             <!--== End Product Category Item ==-->
         </div>
@@ -196,7 +196,7 @@ function rupiah($angka){
                                     <!--== Start Product Thumbnail Area ==-->
                                     <div class="product-single-thumb">
                                         <img src="product/{{$products->image}}" width="544" height="560"
-                                            alt="Image-HasTech">
+                                            alt="Diarika Beauty Image">
                                     </div>
                                     <!--== End Product Thumbnail Area ==-->
                                 </div>

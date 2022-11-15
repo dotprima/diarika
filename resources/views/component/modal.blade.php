@@ -12,7 +12,7 @@
                     </div>
                     <div class="modal-action-product">
                         <div class="thumb">
-                            <img src="assets/images/shop/modal1.webp" alt="Organic Food Juice" width="466" height="320">
+                            <img src="assets/images/shop/modal1.webp" alt="Diarika Beauty Official Website" width="466" height="320">
                         </div>
                         <h4 class="product-name"><a href="product-details.html">Readable content DX22</a></h4>
                     </div>
@@ -37,7 +37,7 @@
                     </div>
                     <div class="modal-action-product">
                         <div class="thumb">
-                            <img src="assets/images/shop/modal1.webp" alt="Organic Food Juice" width="466" height="320">
+                            <img src="assets/images/shop/modal1.webp" alt="Diarika Beauty Official Website" width="466" height="320">
                         </div>
                         <h4 class="product-name"><a href="product-details.html">Readable content DX22</a></h4>
                     </div>
@@ -66,7 +66,7 @@
                                 <!--== Start Product Thumbnail Area ==-->
                                 <div class="product-single-thumb">
                                     <img src="assets/images/shop/quick-view1.webp" width="544" height="560"
-                                        alt="Image-HasTech">
+                                        alt="Diarika Beauty Official Website">
                                 </div>
                                 <!--== End Product Thumbnail Area ==-->
                             </div>
@@ -126,7 +126,7 @@
             <li class="aside-product-list-item">
                 <a href="#/" class="remove">×</a>
                 <a href="product-details.html">
-                    <img src="assets/images/shop/cart1.webp" width="68" height="84" alt="Image">
+                    <img src="assets/images/shop/cart1.webp" width="68" height="84" alt="Diarika Beauty Official Website">
                     <span class="product-title">Leather Mens Slipper</span>
                 </a>
                 <span class="product-price">1 × £69.99</span>
@@ -134,7 +134,7 @@
             <li class="aside-product-list-item">
                 <a href="#/" class="remove">×</a>
                 <a href="product-details.html">
-                    <img src="assets/images/shop/cart2.webp" width="68" height="84" alt="Image">
+                    <img src="assets/images/shop/cart2.webp" width="68" height="84" alt="Diarika Beauty Official Website">
                     <span class="product-title">Quickiin Mens shoes</span>
                 </a>
                 <span class="product-price">1 × £20.00</span>
