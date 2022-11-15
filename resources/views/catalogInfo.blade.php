@@ -325,6 +325,6 @@ function rupiah($angka){
 @section('css')
 <meta property="og:image" content="{{env('APP_URL')}}/thumnail/{{$products->image}}" />
 <meta property="og:site_name" content="Diarika Beauty - Produk {{$productInfo->judul}}" />
-<title>Diarika Beauty - Product {{$productInfo->judul}}</title>
+<title>Product {{$productInfo->judul}} - Diarika Beauty</title>
 <meta property="og:title" content="Diarika Beauty - Produk {{$productInfo->judul}}" />
 @endsection
