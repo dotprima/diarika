@@ -27,8 +27,7 @@ function rupiah($angka){
                 <div class="col-12">
                     <div class="section-title text-center">
                         <h2 class="title">Top sale</h2>
-                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
-                            luctus venenatis</p> -->
+                    
                     </div>
                 </div>
             </div>

@@ -88,58 +88,7 @@
 
                 
                 
-                <!-- <div class="swiper-slide hero-slide-item">
-                    <div class="container">
-                        <div class="row align-items-center position-relative">
-                            <div class="col-12 col-md-6">
-                                <div class="hero-slide-content">
-                                    <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo.png"
-                                            width="327" height="132" alt="Image"></div>
-                                    <h2 class="hero-slide-title" style="padding-top: 50px;">CLEAN FRESH</h2>
-                                    <p class="hero-slide-desc">Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit ut aliquam, purus sit amet luctus venenatis.</p>
-                                    <a class="btn btn-border-dark" href="/catalog">BUY NOW</a>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6" style="padding-top: 100px;">
-                                <div class="hero-slide-thumb">
-                                    <img src="assets/images/FPK202206213-removebg-preview.png" width="841" height="832"
-                                        alt="Image">
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="hero-slide-text-shape"><img src="assets/images/slider/text1.webp" width="70"
-                            height="955" alt="Image"></div>
-                    <div class="hero-slide-social-shape"></div>
-                </div>
-                <div class="swiper-slide hero-slide-item">
-                    <div class="container">
-                        <div class="row align-items-center position-relative">
-                            <div class="col-12 col-md-6">
-                                <div class="hero-slide-content">
-                                    <div class="hero-slide-text-img"><img src="assets/images/slider/test-logo.png"
-                                            width="327" height="132" alt="Image"></div>
-                                    <h2 class="hero-slide-title" style="padding-top: 50px;">CLEAN FRESH</h2>
-                                    <p class="hero-slide-desc">Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit ut aliquam, purus sit amet luctus venenatis.</p>
-                                    <a class="btn btn-border-dark" href="/catalog">BUY NOW</a>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6" style="padding-top: 100px;">
-                                <div class="hero-slide-thumb">
-                                    <img src="assets/images/FPK202206214-removebg-preview.png" width="841" height="832"
-                                        alt="Image">
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="hero-slide-text-shape"><img src="assets/images/slider/text1.webp" width="70"
-                            height="955" alt="Image"></div>
-                    <div class="hero-slide-social-shape"></div>
-                </div> -->
+                
             </div>
             <!--== Add Pagination ==-->
             <div class="hero-slider-pagination"></div>
@@ -218,7 +167,7 @@
                 <div class="newsletter-content">
                     <div class="section-title mb-0">
                         <h2 class="title">Join with us</h2>
-                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.</p> -->
+                       
                     </div>
                 </div>
                 <div class="newsletter-form">
