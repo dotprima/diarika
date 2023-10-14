@@ -14,7 +14,7 @@
                         <div class="thumb">
                             <img src="assets/images/shop/modal1.webp" alt="Diarika Beauty Official Website" width="466" height="320">
                         </div>
-                        <h4 class="product-name"><a href="product-details.html">Readable content DX22</a></h4>
+                        <h4 class="product-name"><a href="#">Readable content DX22</a></h4>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                         <div class="thumb">
                             <img src="assets/images/shop/modal1.webp" alt="Diarika Beauty Official Website" width="466" height="320">
                         </div>
-                        <h4 class="product-name"><a href="product-details.html">Readable content DX22</a></h4>
+                        <h4 class="product-name"><a href="#">Readable content DX22</a></h4>
                     </div>
                 </div>
             </div>
@@ -125,7 +125,7 @@
         <ul class="aside-cart-product-list">
             <li class="aside-product-list-item">
                 <a href="#/" class="remove">×</a>
-                <a href="product-details.html">
+                <a href="#">
                     <img src="assets/images/shop/cart1.webp" width="68" height="84" alt="Diarika Beauty Official Website">
                     <span class="product-title">Leather Mens Slipper</span>
                 </a>
@@ -133,7 +133,7 @@
             </li>
             <li class="aside-product-list-item">
                 <a href="#/" class="remove">×</a>
-                <a href="product-details.html">
+                <a href="#">
                     <img src="assets/images/shop/cart2.webp" width="68" height="84" alt="Diarika Beauty Official Website">
                     <span class="product-title">Quickiin Mens shoes</span>
                 </a>
