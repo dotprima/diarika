@@ -331,12 +331,12 @@
     <meta property="og:site_name" content="Diarika Beauty - Produk {{ $productInfo->judul }}" />
     <title>Product {{ $productInfo->judul }} - Diarika Beauty</title>
     <meta property="og:title" content="Diarika Beauty - Produk {{ $productInfo->judul }}" />
-    <meta name="description" content="{{ $productInfo->deskripsi }}" itemprop="description" />
+    <meta name="description" content="{{strip_tags( $productInfo->deskripsi) }}" itemprop="description" />
     <meta name="originalTitle" content="Diarika Beauty - Produk {{ $productInfo->judul }}" />
-    <meta property="og:description" content="{{ $productInfo->deskripsi }}" />
-    <meta content="{{ $productInfo->deskripsi }}" />
+    <meta property="og:description" content="{{strip_tags( $productInfo->deskripsi) }}" />
+    <meta content="{{strip_tags( $productInfo->deskripsi) }}" />
     <meta name="twitter:description"
-        content="{{ $productInfo->deskripsi }}" />
+        content="{{strip_tags( $productInfo->deskripsi) }}" />
     <meta name="twitter:image"
         content="{{ env('APP_URL') }}/thumnail/{{ $products->image }}" />
 @endsection
