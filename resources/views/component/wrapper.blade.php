@@ -26,14 +26,14 @@
     <meta property="og:locale" content="id_ID" />
     <meta property="og:type" content="website" />
 
-    <meta property="og:description" content="Diarika Beauty - Glow up your skin. Find your truly beauty" />
+   
     <meta property="og:url" content="{{ env('APP_URL') }}" />
 
-    <meta property="article:modified_time" content="2022-08-18T01:56:38+00:00" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:label1" content="Estimasi waktu membaca" />
-    <meta name="twitter:data1" content="7 menit" />
+ 
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="googlebot-news" content="index, follow" />
+    
     @yield('css')
     <!-- Vendor CSS (Bootstrap & Icon Font) -->
     <link rel="stylesheet" href="{{ env('APP_URL') }}/assets/css/vendor/bootstrap.min.css">
