@@ -157,7 +157,7 @@ function rupiah($angka){
 
                                             <div class="card-body">
                                                 <div class="form-group">
-                                                    <label for="exampleInputEmail1">Harga lama</label>
+                                                    <label for="exampleInputEmail1">Harga Setelah Diskon</label>
                                                     <input type="number" class="form-control" name="diskon"
                                                         value="<?=$products->diskon?>" required>
                                                         <span>masukan 0 jika ingin menghapus</span>
