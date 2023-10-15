@@ -22,7 +22,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap"
         rel="stylesheet">
 
-    <link rel="canonical" href="{{ env('APP_URL') }}" />
+    <link rel="canonical" href="{{u rl()->current() }}" />
     <meta property="og:locale" content="id_ID" />
     <meta property="og:type" content="website" />
 
