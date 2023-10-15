@@ -6,10 +6,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="Diarika">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="Diarika Beauty Glow up your skin. Find your truly beauty" />
-    <meta name="author" content="codecarnival" />
+    <meta name="keywords"
+        content="Diarika Beauty, Diarikabeauty, perawatan kulit, serum wajah, facial wash, moisturizer, cleansing milk, toner, kulit bersih, kulit cerah, kulit sehat, TikTok, tips perawatan kulit, testimoni perawatan kulit" />
+    <meta name="author" content="Diarika Beauty" />
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ env('APP_URL') }}/assets/images/favicon.webp">
