@@ -27,7 +27,7 @@
     <meta property="og:type" content="website" />
 
 
-    <meta property="og:url" content="{{ env('APP_URL') }}" />
+    <meta property="og:url" content="{{ url()->current() }}" />
 
 
     <meta name="robots" content="index, follow" />
