@@ -8,7 +8,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords"
-        content="Diarika Beauty, Diarikabeauty, perawatan kulit, serum wajah, facial wash, moisturizer, cleansing milk, toner, kulit bersih, kulit cerah, kulit sehat, TikTok, tips perawatan kulit, testimoni perawatan kulit" />
+        content="Diarika Beauty, Diarikabeauty, perawatan kulit, serum wajah, facial wash, moisturizer, cleansing milk, toner, kulit bersih, kulit cerah, kulit sehat, TikTok, tips perawatan kulit, testimoni perawatan kulit"
+        itemprop="keywords" />
     <meta name="author" content="Diarika Beauty" />
 
     <!-- Favicon -->
