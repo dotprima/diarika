@@ -12,10 +12,10 @@ class Home extends Component
     
     public function render()
     {
-        if($this->search==null){
-            $product = Product::take(9)->get();;
-        }else{
-            $product = Product::where('judul', 'like', '%'.$this->search.'%')->get();
+        if ($this->search == null) {
+            $product = Product::take(9)->orderBy('id', 'desc')->get();
+        } else {
+            $product = Product::where('judul', 'like', '%' . $this->search . '%')->orderBy('id', 'desc')->get();
         }
 
         

@@ -16,14 +16,15 @@ class Catalog extends Component
     public function render()
     {
         $count = Product::count();
-        if($this->search==null){
-            if($this->sortField){
-                $product = Product::where('kategori',$this->sortField )->paginate(6);
-            }else{
-                $product = Product::paginate(6);
+
+        if ($this->search == null) {
+            if ($this->sortField) {
+                $product = Product::where('kategori', $this->sortField)->orderBy('id', 'desc')->paginate(6);
+            } else {
+                $product = Product::orderBy('id', 'desc')->paginate(6);
             }
-        }else{
-            $product = Product::where('judul', 'like', '%'.$this->search.'%')->paginate(6);
+        } else {
+            $product = Product::where('judul', 'like', '%' . $this->search . '%')->orderBy('id', 'desc')->paginate(6);
         }
 
         return view('livewire.catalog',[
